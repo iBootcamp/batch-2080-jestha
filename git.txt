@@ -21,7 +21,7 @@ git bash commands
 - git remote set-url origin paste url
 - git branch -d 'namebranch '=> delet
 - git branch -D 'namebranch'
-- git checkout -b lamb (newbranch)
+- git checkout -m (oldBranchName) (newbranch)
 - git remote -v => kun origin ma xa vane code.
 - git clone
 - git fetch -a
