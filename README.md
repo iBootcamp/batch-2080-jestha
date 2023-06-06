@@ -1,2 +1,4 @@
-# batch-2080-jestha
-This is a demo project for the new batch of 2080
+i am raj
+i think i will be a great person in the future
+i hope to become rich as well
+
