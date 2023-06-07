@@ -27,19 +27,19 @@
 
 #### Git init
 
->The git init command is used to initialise ablank repository. it creates a git folder in the current working directory.
+>The `git init` command is used to initialise ablank repository. it creates a git folder in the current working directory.
 
 ![git-init](./photo/git%20init.png)
 
 #### git commit
 
->The git commit is used to save the changes to the local repository. the command helps you keep record of all the changes made.
+>The `git commit` is used to save the changes to the local repository. the command helps you keep record of all the changes made.
 
 ![git-commit](./photo/git%20commit.jpg)
 
 #### git add
 
->The git add command is used to add changes in the current directory to the staging area.
+>The `git add` command is used to add changes in the current directory to the staging area.
 
 ![git-add](./photo/git%20add.jpg)
 
@@ -51,11 +51,11 @@
 
 #### Git merge
 
->The git merge command is used to integrate different branches into a singe branch.
+>The `git merge` command is used to integrate different branches into a singe branch.
 
 #### Git push
 
->The git push command is used to upload the content from the local repository to the remote repository.
+>The `git push` command is used to upload the content from the local repository to the remote repository.
 
 **syntax:** `git push`
 
@@ -63,11 +63,11 @@
 
 #### Git pull
 
->The git pull  command is  used to fetch the new commits and merge them into the local branch.
+>The `git pull`  command is  used to fetch the new commits and merge them into the local branch.
 
 #### Git clone
 
->The git clone command is used to create a copy of the target  repository or create a clone in a new directory at a new place.
+>The `git clone` command is used to create a copy of the target  repository or create a clone in a new directory at a new place.
 
 #### Git branch
 
@@ -75,22 +75,22 @@
 
 #### Git check-out
 
->The git checkout command works together with the git branch command. The command enables the navigation between the branches.
+>The `git checkou`t command works together with the git branch command. The command enables the navigation between the branches.
 
 ### other git command
 
 #### Git config
 
-> The git config command is used to set cofigurations like the name, email id etc. This information should be provided as soon as Git is installed. since it is used by git at every commit.
+> The `git config` command is used to set cofigurations like the name, email id etc. This information should be provided as soon as Git is installed. since it is used by git at every commit.
 
 **syntax:** `git config`
 
 #### Git diff
 
->The git diff command is referred to as multi use command that runs the different git data sources. the command shows the difference between the changes made on a file.
+>The `git diff` command is referred to as multi use command that runs the different git data sources. the command shows the difference between the changes made on a file.
 
 #### Git log
 
->The git log command is used to view the previous commits that have taken places in the git project. when the list appears on the srceen, it shows the reverse chronological order.
+>The `git log` command is used to view the previous commits that have taken places in the git project. when the list appears on the srceen, it shows the reverse chronological order.
 
 ```use of bracket code```

@@ -31,3 +31,11 @@
 ## Contributers
 
 - [**Github**](https://github.com/sabinshrestha7065)
+
+![GitHub contributors](https://img.shields.io/github/contributors/iBootcamp/batch-2021-june)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ibootcamp/batch-2021-june)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/iBootcamp/batch-2080-jestha)
+
+![ibootcamp start rating](https://img.shields.io/github/stars/iBootcamp/batch-2021-june)
