@@ -1,4 +1,2 @@
-i am raj
-i think i will be a great person in the future
-i hope to become rich as well
+
 
