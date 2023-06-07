@@ -6,7 +6,7 @@ git bash commands
 - git commit -m "first commit"
 - git config user.name
 - git config user.email
-- git confie --list
+- git config --list
 - git diff => k k change xa vanerw thaha hunxa.
 - git log => k k commit gareko xa vanerw thaha hunxa.
 - git checkout "commit id psate" => you go to the old files.
