@@ -28,3 +28,4 @@ git bash commands
 - git fetch -a
 - git branch -r
 - git pull
+- git commit -am "commit"
