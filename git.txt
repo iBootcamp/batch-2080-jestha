@@ -22,8 +22,8 @@ git bash commands
 - git branch -D 'namebranch' => force to delete
 - git merge
 - git push => github cloud ma laherw rakhana ko lagi.
-- git clone (Paste the url)
 - git checkout -m (oldBranchName) (newbranch)
+- git clone (Paste the url)
 - git remote -v => kun origin ma xa vane code.
 - git remote show origin
 - git fetch -a
