@@ -18,7 +18,7 @@
 
 ## **Songs**
 
-<img src=" https://static.tvtropes.org/pmwiki/pub/images/the_beatles_photo.jpeg" width="200" height="300" align="left">
+<img src="https://static.tvtropes.org/pmwiki/pub/images/the_beatles_photo.jpeg" width="200" height="300" align="left">
 
 
 ```The Beatles were prolific songwriters. They released so many masterpieces througout their career. Despite the gargantuan amount of the melodies they created, the sweetness of their songs were retained in every one of them. The Beatles mostly wrote about love and their lovers, the beauty of life and nature, their personal happenings and the happenings of the world. The songs such as "Norwegian wood","something","hey jude","let it be" explicitly depicted the personal experiences of John lennon,George harrison and the songs like "here comes the sun","yesterday","i want to hold your hands" showed how romantic were the minds of these young souls.Later The Beatles experimented with a more psychedelic tone in their music with songs like "A day in life","lucy in the sky with diamonds" and "strawberry fields forever". This new found sound of the band must be credited to the heavy usage of psychedelic drugs like LSD and cocaine.```
