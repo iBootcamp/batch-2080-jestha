@@ -14,15 +14,17 @@ git bash commands
 - git branch
 - git branch manish => make a another branch.
 - git config --global alias.st "status" => change command into another name.
-- git config --global alias unset alias.st => delet
+- git config --global alias unset alias.st => delete
 - git remote add origin paste url then git remote
 - git branch -m manish newbranch name
-- git push
 - git remote set-url origin paste url
-- git branch -d 'namebranch '=> delet
-- git branch -D 'namebranch'
+- git branch -d 'namebranch '=> delete
+- git branch -D 'namebranch' => force to delete
+- git merge
+- git push => github cloud ma laherw rakhana ko lagi.
 - git checkout -m (oldBranchName) (newbranch)
 - git remote -v => kun origin ma xa vane code.
 - git clone
 - git fetch -a
 - git branch -r
+- git pull
