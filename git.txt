@@ -29,3 +29,4 @@ git bash commands
 - git branch -r
 - git pull
 - git commit -am "commit"
+- git push origin :old_name new_name
