@@ -1,0 +1,30 @@
+ssh commands 
+
+why the ssh system?
+Ans: for secret your project, to security your project.
+
+- ssh-keygen
+- cd ~/
+- cd ~/.ssh
+- ls => display on screen -> id_rsa, id_rsa.pub and known.hosts
+- cat id_rsa.pub
+
+Ani aaya ko text copy garerw github ma jana,
+then go to the setting and left side ko bar ma gayarw 
+ssh and gpg key ma click garne again..............
+
+text paste gardeu, tmroo pc ko name thyo like "manish_pc"
+
+ So, tmroo id baneyu 
+
+ ani ssh ko link clone garerw repo aafuno pc ma lina milaxa haii
+
+ - git clone git@github.com:aomini/tailwind-design.git OR
+ - git clone git@github.com:aomini/tailwind-design.git "folder name"
+ - for delete > rm -rf tailwind-design/
+
+
+ 
+
+
+
