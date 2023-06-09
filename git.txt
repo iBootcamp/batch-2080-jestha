@@ -32,3 +32,5 @@ git bash commands
 - git branch -r
 - git pull
 - git commit -am "commit"
+- ipconfig => ip address of your page / special file name or address.
+- ifconfig
