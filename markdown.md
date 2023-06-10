@@ -9,7 +9,7 @@
 | bold            | `** i am bold **`                                                                               |
 | link            | [Open the google](https://google.com)                                                           |
 | code            | `me`                                                                                            |
-| Image           | ![ manish](pets.jpg)                                                                            |
+| Image           | ![ manish](./photo/Snapchat-1746657701.jpg)                                                                            |
 | comment         | <!--- my name is comment --->                                                                   |
 | Task list       | `- [x] write the press release.` <br> `- [ y]update the website` <br> `- [z] contact the media` |
 | strikethrough   | ~~the himalayan~~                                                                               |

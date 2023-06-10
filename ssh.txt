@@ -8,8 +8,9 @@ Ans: for secret your project, to security your project.
 - cd ~/.ssh
 - ls => display on screen -> id_rsa, id_rsa.pub and known.hosts
 - cat id_rsa.pub
+- rm -rf "folderName"
 
-Ani aaya ko text copy garerw github ma jana,
+-> Ani aaya ko text copy garerw github ma jana,
 then go to the setting and left side ko bar ma gayarw 
 ssh and gpg key ma click garne again..............
 
