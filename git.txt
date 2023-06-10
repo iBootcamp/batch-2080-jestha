@@ -34,3 +34,4 @@ git bash commands
 - git commit -am "commit"
 - ipconfig => ip address of your page / special file name or address.
 - ifconfig
+- git clean
