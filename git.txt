@@ -35,3 +35,4 @@ git bash commands
 - ipconfig => ip address of your page / special file name or address.
 - ifconfig
 - git clean
+- git push -u origin silver
