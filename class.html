@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Vacancy</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            width: 100%;
+            align-items: center;
+
+        }
+
+        
+        p {
+            /*HEX*/
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- class of 2080/02/29 -->
+    <b>bold</b>
+    <small> tmi small xa haii</small>
+    <del> 344</del>
+    <ins> underline</ins>
+    <p>H <sub>2</sub>SO <sub>4</sub></p>
+    <p>a<sup>2</sup>+ b<sup>2</sup></p>
+    <mark>highlight</mark>
+
+    <blockquote cite="https://en.wikipedia.org/wiki/Tree">
+        In botany, a tree is a perennial plant with an elongated stem, or trunk, usually supporting branches and leaves.
+        In some usages, the definition of a tree may be narrower, including only woody plants with secondary growth,
+        plants that are usable as lumber or plants above a specified height. In wider definitions, the taller palms,
+        <q> tree ferns, bananas, and bamboos are also trees.</q>
+    </blockquote>
+    <abbr title="Hyper Text Markup language">HTML</abbr>
+    <address>
+        Jadibuti, koteshor, Kathmandu
+    </address>
+    <!-- title of work -->
+    <cite>
+        Compound chemicals
+    </cite>
+    <p><bdo dir="rtl">this is left to right.</bdo></p>
+    <a href="#" target="_blank"></a>
+
+    <div class="container">
+
+        <header>
+            <span>Rakesh Software is</span>
+            <H1>HIRING</H1>
+        </header>
+        <main>
+            <div>
+                <h2>QA</h2>
+                <p>Experience: <span>1-2 year</span></p>
+                <p><span>Banepa,Karveplachock</span></p>
+            </div>
+        </main>
+        <footer>
+            <button>
+                Apply Now
+            </button>
+            <div>
+                <p>
+                    9820304564
+                </p>
+                <a href="#">www.rakeshstha.com</a>
+            </div>
+        </footer>
+    </div>
+    <div class="container2" style="display:none;">
+        <header>
+            <span>Rakesh Software is</span>
+            <H1>HIRING</H1>
+        </header>
+        <main>
+            <div>
+                <h2>Fontend Developer</h2>
+                <p>Experience: <span>2-3 year</span></p>
+                <p><span>Banepa,Karveplachock</span></p>
+            </div>
+        </main>
+        <footer>
+            <button>
+                Apply Now
+            </button>
+            <div>
+                <p>
+                    9820304564
+                </p>
+                <a href="#">www.rakeshstha.com</a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        /*  const page = document.getElementsByClassName("container");
+        const page1 = document.getElementsByClassName("container2");
+
+        const stop = setInterval(function () {
+       
+            const page = document.getElementsByClassName("container");
+            const current = parseInt(page.textContent);
+            page.textContent = current - 1
+        }, 1e3)
+
+        setTimeout(function () {
+            const page1 = document.getElementsByClassName("container2");
+            page1.play()
+            clearInterval(stop)
+        }, 5e3) */
+        //console.log(page1);
+
+        const page = document.getElementsByClassName("container");
+        const page1 = document.getElementsByClassName("container2");
+
+        page.onclick = function () {
+            page1.textContent
+        }
+
+
+        page1.onclick = function () {
+            page.textContent
+        }
+    </script>
+</body>
+
+</html>
