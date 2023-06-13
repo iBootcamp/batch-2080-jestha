@@ -13,31 +13,43 @@
 
         }
 
-        
-        p {
+
+        h1 {
             /*HEX*/
-            background-color: #ff0000;
+            color: #1f0b0b;
+            /* rgb*/
+            background-color: rgb(138, 68, 68);
+            /*rgba*/
         }
     </style>
 </head>
 
 <body>
+    <h1>
+        HTML and CSS Class
+    </h1>
     <!-- class of 2080/02/29 -->
     <b>bold</b>
+    <br>
     <small> tmi small xa haii</small>
+    <br>
     <del> 344</del>
-    <ins> underline</ins>
-    <p>H <sub>2</sub>SO <sub>4</sub></p>
-    <p>a<sup>2</sup>+ b<sup>2</sup></p>
+    <br>
+    <ins> underline</ins><br>
+    <p>H <sub>2</sub>SO <sub>4</sub></p><br>
+    <p>a<sup>2</sup>+ b<sup>2</sup></p><br>
     <mark>highlight</mark>
 
+    <!-- cite for location of page -->
     <blockquote cite="https://en.wikipedia.org/wiki/Tree">
         In botany, a tree is a perennial plant with an elongated stem, or trunk, usually supporting branches and leaves.
         In some usages, the definition of a tree may be narrower, including only woody plants with secondary growth,
         plants that are usable as lumber or plants above a specified height. In wider definitions, the taller palms,
         <q> tree ferns, bananas, and bamboos are also trees.</q>
     </blockquote>
-    <abbr title="Hyper Text Markup language">HTML</abbr>
+
+    <abbr title="Hyper Text Markup language" style="text-decoration: none;">HTML</abbr>
+    <!-- your address -->
     <address>
         Jadibuti, koteshor, Kathmandu
     </address>
@@ -46,13 +58,24 @@
         Compound chemicals
     </cite>
     <p><bdo dir="rtl">this is left to right.</bdo></p>
-    <a href="#" target="_blank"></a>
+    <!-- relative link -->
+    <a href="./git.txt" target="_blank"> git_command</a>
 
+    <!-- absolute link-->
+    <a href="https://github.com" target="_parent">Github</a>
+    <!-- relative image -->
+    <img src="./photo/pets.jpg" alt="pet">
+
+    <!-- absolute image-->
+    <img src="https://www.southernliving.com/thmb/F6CmBtFFGbA86t7rlicydxNcDnQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1312619551-15706e976a2d4e48bfedbf92bd4421c2.jpg"
+        alt="pet" width="200px" height="200px">
+
+    <!-- sematices formate -->
     <div class="container">
 
         <header>
             <span>Rakesh Software is</span>
-            <H1>HIRING</H1>
+            <H2>HIRING</H2>
         </header>
         <main>
             <div>
@@ -73,29 +96,6 @@
             </div>
         </footer>
     </div>
-    <div class="container2" style="display:none;">
-        <header>
-            <span>Rakesh Software is</span>
-            <H1>HIRING</H1>
-        </header>
-        <main>
-            <div>
-                <h2>Fontend Developer</h2>
-                <p>Experience: <span>2-3 year</span></p>
-                <p><span>Banepa,Karveplachock</span></p>
-            </div>
-        </main>
-        <footer>
-            <button>
-                Apply Now
-            </button>
-            <div>
-                <p>
-                    9820304564
-                </p>
-                <a href="#">www.rakeshstha.com</a>
-            </div>
-        </footer>
     </div>
     <script>
         /*  const page = document.getElementsByClassName("container");
