@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Vacancy</title>
+    <link rel="icon" href="./photo/poste-de-travail-pc-portable-cafe.jpg">
     <style>
         body {
             font-family: sans-serif;
-            width: 100%;
-            align-items: center;
-
         }
 
 
@@ -21,19 +19,6 @@
             background-color: rgb(138, 68, 68);
             /*rgba*/
         }
-
-        .git:link {
-            color: orange;
-            text-decoration: none;
-        }
-
-        .git:active {
-            color: #1f0b0b;
-        }
-
-        .git:visited {
-            color: rgb(7, 83, 58);
-        }
     </style>
 </head>
 
@@ -42,115 +27,21 @@
         HTML and CSS Class
     </h1>
     <!-- markbook -->
-    <p>
-        <a href="#1">Chater-1</a>
-    </p>
+
+    <p> <a href="#1">Chater-1</a> </p>
     <a href="./manish.html#2">manish</a>
 
+    <picture>
+        <source media="(min-width:640px)" srcset="./photo/poste-de-travail-pc-portable-cafe.jpg" />
+        <source media="(min-width:560px)" srcset="./photo/Snapchat-1746657701.jpg" />
+        <img src="./photo/poste-de-travail-pc-portable-cafe.jpg" alt="computer" />
+    </picture>
 
-    <div>
-        <!-- usemap: create relationsip between image and image map -->
-        <!-- shape: rect, circle, poly -->
-        <img src="./photo/poste-de-travail-pc-portable-cafe.jpg" alt="computer" usemap="#computer">
-        <map name="computer">
-            <area shape="rect" coords="175,50,425,204" href="./index.html" alt="">
-        </map>
-    </div>
-
-
-    <!-- class of 2080/02/29 -->
-    <ins> underline</ins><br>
-    <p>H <sub>2</sub>SO <sub>4</sub></p><br>
-    <p>a<sup>2</sup>+ b<sup>2</sup></p><br>
-    <mark>highlight</mark>
-
-    <!-- cite for location of page -->
-    <blockquote cite=" https://en.wikipedia.org/wiki/Tree"> In botany, a tree is a perennial plant with an elongated
-        stem, or trunk, usually supporting branches and leaves. In some usages, the definition of a tree may be
-        narrower, including only woody plants with secondary growth, plants that are usable as lumber or plants
-        above a specified height. In wider definitions, the taller palms, <q> tree ferns, bananas, and bamboos
-            are also trees.</q>
-    </blockquote>
-
-    <abbr title="Hyper Text Markup language">HTML</abbr>
-    <!-- your address -->
-    <address>
-        Jadibuti, koteshor, Kathmandu
-    </address>
-    <!-- title of work -->
-    <cite>
-        Compound chemicals
-    </cite>
-    <p><bdo dir="rtl">this is left to right.</bdo></p>
 
     <!-- block bitar inline rakhana milxa tarw inline bitar block rakhana mildai na -->
-    <!-- relative link -->
-    <a href="./git.txt" target="_blank"> git_command</a>
 
-    <!-- absolute link-->
-    <!-- link color -->
-    <!-- self closing tag -->
-    <a href="https://github.com" target="_blank" class="git">Github</a>
-
-    <!-- sematices formate -->
-
-    <div class="container">
-
-
-        <header>
-            <span>Rakesh Software is</span>
-            <H2>HIRING</H2>
-        </header>
-        <main>
-            <div>
-                <h2>QA</h2>
-                <p>Experience: <span>1-2 year</span></p>
-                <p><span>Banepa,Karveplachock</span></p>
-            </div>
-        </main>
-        <footer>
-            <button>
-                Apply Now
-            </button>
-            <div>
-                <p>
-                    9820304564
-                </p>
-                <a href="#">www.rakeshstha.com</a>
-            </div>
-        </footer>
-    </div>
     <p id="1">here</p>
-    <script>
-        /*  const page = document.getElementsByClassName("container");
-        const page1 = document.getElementsByClassName("container2");
 
-        const stop = setInterval(function () {
-       
-            const page = document.getElementsByClassName("container");
-            const current = parseInt(page.textContent);
-            page.textContent = current - 1
-        }, 1e3)
-
-        setTimeout(function () {
-            const page1 = document.getElementsByClassName("container2");
-            page1.play()
-            clearInterval(stop)
-        }, 5e3) */
-        //console.log(page1);
-
-        const page = document.getElementsByClassName("container");
-        const page1 = document.getElementsByClassName("container2");
-
-        page.onclick = function () {
-            page1.textContent
-        }
-
-
-        page1.onclick = function () {
-            page.textContent
-        }
-    </script>
 </body>
 
 </html>

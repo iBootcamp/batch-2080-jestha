@@ -68,3 +68,4 @@ colors.add("black");
 colors.add("yellow");
 colors.delete("red");
 console.log(colors.size); // print 2
+
