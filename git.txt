@@ -36,3 +36,12 @@ git bash commands
 - ifconfig
 - git clean
 - git push -u origin silver => for local to the gi cloud push.
+
+!-- Advantages of git -->
+
+> Tracks files modification
+> easy to collaborate
+> Retrival of old file versions.
+
+github = to store of git track files
+
