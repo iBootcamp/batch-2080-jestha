@@ -18,6 +18,14 @@
             max-width: 100%;
             height: auto;
         }
+
+        nav {
+            display: flex;
+        }
+        nav ul{
+            display: flex;
+            gap: 12px;
+        }
     </style>
 </head>
 
@@ -26,12 +34,17 @@
     <header>
         <h1>Bootcamp</h1>
         <nav>
-            <a title="open the home page" href="">Home</a>
-            <a href="">Contact</a>
-            <a href="">Service</a>
-            <a href="">Bootcamp</a>
-            <span><i class="bi bi-search"></i></span>
-            <input type="email" name="email" placeholder="Enter your email">
+            <ul type="none">
+                <li> <a title="open the home page" href="">Home</a></li>
+                <li> <a href="#">Contact</a></li>
+                <li> <a href="#">Service</a></li>
+                <li> <a href="#">Bootcamp</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+            <div>
+                <span><i class="bi bi-search"></i></span>
+                <input type="email" name="email" placeholder="Enter your email">
+            </div>
         </nav>
     </header>
     <main>
