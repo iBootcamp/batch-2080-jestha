@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body {
+            background: black;
+            color: #fff;
+            font-family: sans-serif;
+            /* float:right;*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .container {
+            text-align: center;
+            background-image: linear-gradient(red, rgb(54, 54, 95));
+            width: 300px;
+            border: 2px solid rgb(53, 33, 33);
+            border-radius: 12px;
+            padding: 10px;
+            margin: 12px;
+        }
+
+        tr td input {
+            align-items: center;
+            font-size: 25px;
+            background: rgb(24, 24, 27);
+            color: #fff;
+            width: 70px;
+            height: 70px;
+            border: none;
+            border-radius: 50px;
+        }
+
+        .screen {
+            background: rgb(37, 27, 27);
+            width: 290px;
+            height: 50px;
+            color: #fff;
+            border: none;
+            margin-bottom: 10px;
+            border-radius: 50px;
+            font-size: 20px;
+        }
+
+
+        .operator {
+            background: rgb(25, 25, 136);
+            font-size: 29px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h4>Simple calculator</h4>
+            <table>
+                <form>
+                    <input type="text" class="screen" name="screen">
+                    <tr>
+                        <td><input type="button" value="AC" class="AC"> </td>
+                        <td> <input type="button" value="( )" class="operator"></td>
+                        <td> <input type="button" value="%" class="operator"></td>
+                        <td><input type="button" value="÷" class="operator"> </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="button" value="7" onclick="screen.value='7'"></td>
+                        <td> <input type="button" value="8"></td>
+                        <td> <input type="button" value="9"></td>
+                        <td> <input type="button" value="x" class="operator"></td>
+                    </tr>
+                    <tr>
+                        <td> <input type="button" value="4"></td>
+                        <td> <input type="button" value="5"></td>
+                        <td> <input type="button" value="6"></td>
+                        <td> <input type="button" value="-" class="operator"></td>
+                    </tr>
+                    <tr>
+                        <td> <input type="button" value="1"></td>
+                        <td> <input type="button" value="2"></td>
+                        <td> <input type="button" value="3"></td>
+                        <td> <input type="button" value="+" class="operator"></td>
+                    </tr>
+                    <tr>
+                        <td> <input type="button" value="0"></td>
+                        <td> <input type="button" value="."></td>
+                        <td> <input type="button" value="⌫"></td>
+                        <td> <input type="button" value="=" class="operator"></td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
