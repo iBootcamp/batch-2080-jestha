@@ -51,14 +51,69 @@ use `ctrl + front-slash` for the comment
 ```
 
 # Block VS Inline
-1. Block= A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
- *** eg: <p> and <div> ***
+1. Block: A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+ ``` eg: <address> <article> <aside>  <blockquote> <canvas> <dd><div> <dl> <dt> <fieldset> <figcaption> <figure> <footer> <form> <h1>-<h6> <header> <hr> <li> <main> <nav> <noscript> <ol> <p> <pre> <section ><table> <tfoot> <ul> <video> ```
 
-2. Inline=
-
-Block bhitra inline chai lekhna payo tara inline bhitra block chai lekhna hudaina as it doesn't abide by the semantics structure
+2. Inline:An inline element does not start on a new line. An inline element only takes up as much width as necessary.An inline element cannot contain a block-level element!
+ ```eg: <a> <abbr> <acronym> <b> <bdo> <big> <br> <button> <cite> <code> <dfn> <em> <i> <img> <input> <kbd> <label> <map> <object> <output> <q> <samp> <script> <select> <small> <span> <strong> <sub> <sup> <textarea> <time> <tt> <var>```
+***note: Block bhitra inline chai lekh na payo tara inline bhitra block chai lekhna hudaina as it doesn't abide by the semantics structure***
 
 ```
 How do we add width and height to inline tags?
 and can we even do it?
+```
+# CLASS VS ID
+1. CLASS
+:It is a element selector that can be used form multiple elements.
+To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties within curly braces {}:
+```
+.container
+{
+    ....
+    ....
+    ....
+}
+
+<p class="container">
+......
+......
+</p>
+
+```
+2. ID
+: It is an element selefctor that can be used for a single unique html element only. once an id name has been used it cannot be used again.
+The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
+
+```
+#container
+{
+    .......
+    .......
+    .......
+}
+
+<p class="container">
+......
+......
+......
+</p>
+
+```
+# Iframe tag
+An HTML iframe is used to display a web page within a web page.The HTML iframe tag specifies an inline frame.
+An inline frame is used to embed another document within the current HTML document.
+
+```
+syntax:
+<iframe src="url" title="description"></iframe>
+
+```
+
+An iframe can be used as the target frame for a link.The target attribute of the link must refer to the name attribute of the iframe:
+```
+syntax:
+
+<iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
 ```
