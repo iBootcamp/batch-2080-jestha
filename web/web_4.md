@@ -29,11 +29,11 @@ syntax:- margin : .........
 : bg-color image repeat position etc... 
 syntax:-background : ..........
 
-# <picture>-tag
+# picture-tag
 This tag is a substitute for *** img *** tag. This allows us to display image in varrying resolutions according to the size of scrns of the user's devices 
 
 # favicon
-<link rel="icon" type="image/x-icon" href="link">
+ With help of the link tag we can add an icon that is displayed at the top of our tab when we open our page "link rel="icon" type="image/x-icon" href="link"" 
 
 # table
 we can add css to specific columns or rows by using nth child(even/odd) which selects only the even or odd numbered row or column in the table and applies the css to those specific parts
@@ -51,7 +51,8 @@ use `ctrl + front-slash` for the comment
 ```
 
 # Block VS Inline
-1. Block=
+1. Block= A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+ *** eg: <p> and <div> ***
 
 2. Inline=
 
