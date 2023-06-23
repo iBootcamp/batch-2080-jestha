@@ -8,21 +8,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>Document</title>
     <style>
-        table,
-        tr,
-        th,
-        td {
-            font-family: sans-serif;
-            border: 1px solid rgb(24, 23, 22);
-            border-collapse: collapse;
-
+        body {
+            background-color: aqua;
         }
 
-        th {
-            background: violet;
-        }
-        tr:nth-child(odd){
-            background: gold;
+        code {
+            background-color: #837272;
+            border-radius: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0 3px;
         }
     </style>
 </head>
@@ -39,77 +33,26 @@
             Manish
         </button>
         <a href="https://github.com"><i class="bi bi-github"></i> Github</a>
-
     </div>
-    <h2>Routine of diploma in civil engineering</h2>
-    <hr>
-    <caption> <strong> Thid Year/ First Part</strong> </caption>
+    <!-- progress bar -->
 
-    <table>
-        <colgroup>
-            <col span="3" style="background:goldenrod">
-            <col span="4" style="background-color: aquamarine;">
-        </colgroup>
-        <thead>
-            <tr>
-                <th colspan="2" rowspan="2">Time / <br> Day</th>
-                <th rowspan="2">10:30-12:00</th>
-                <th rowspan="2">12:00- 1:30</th>
-                <th rowspan="2"> 1:30-2:00</th>
-                <th rowspan="2"> 2:00-3:30</th>
-                <th rowspan="2"> 3:30-5:00</th>
-            </tr>
-        </thead>
-        <tbody>
+    <progress value="50" max="100">50%</progress>
+    <br>
 
-            <tr>
-                <td colspan="2"> sunday</td>
-                <td>Estimating-2 (Dbs)</td>
-                <td>Construction Management (Bs)</td>
-                <td>Break</td>
-                <td colspan="2">SDD (Am) </td>
-            </tr>
-            <tr>
-                <td colspan="2"> Monday</td>
-                <td>SDD (Am)</td>
-                <td>Estimating-2 (Dbs)</td>
-                <td>Break</td>
-                <td colspan="2">Surveying-3 practical Group B</td>
-            </tr>
-            <tr>
-                <td colspan="2"> Tuesday</td>
-                <td>Construction Management (Bs)</td>
-                <td>Highway (Ms)</td>
-                <td>Break</td>
-                <td colspan="2">Surveying-3 practical Group A</td>
-            </tr>
+    <!-- time element -->
+    <time datetime="2021-10-02"> <b>june 8</b> </time>
 
-            <tr>
-                <td colspan="2"> Wednesday</td>
-                <td>Estimating-2 (Dbs)</td>
-                <td>Highway (Ms)</td>
-                <td>Break</td>
-                <td>Sanitary Engineering (Sp)</td>
-                <td>SDD (Am)</td>
-            </tr>
+    <!-- definition element -->
+    <p>
+        This is a <dfn> definition</dfn> tag.
+    </p>
 
-            <tr>
-                <td colspan="2"> Thursday</td>
-                <td>SDD (Am)</td>
-                <td>Surveying-3 (pb)</td>
-                <td>Break</td>
-                <td colspan="2">Sanitary Engineering (Sp)</td>
-            </tr>
-            <tr>
-                <td colspan="2"> Friday</td>
-                <td>Construction Management (Bs)</td>
-                <td>SDD (Am)</td>
-                <td>Break</td>
-                <td colspan="2">Surveying-3 (Pb)</td>
-            </tr>
-        </tbody>
-    </table>
-    <p>This routine is fixed the this semester.</p>
+    <!-- code -->
+    <p>
+        This is a code block
+        <code>Console.log("hello")</code>
+    </p>
+
 
     <script src="./index.js"></script>
 </body>

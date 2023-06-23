@@ -123,3 +123,13 @@ const capitalLetter = nepaliLanguage.toUpperCase();
 
  // console.log(capitalLetter);
 
+ const hello = {
+  error : 'false',
+  debug : 'debugger',
+  defect : ['seee', 'swew', 'wedee']
+
+ };
+
+ delete hello.defect;
+ console.log(hello);
+
