@@ -1,0 +1,123 @@
+@font-face{
+    font-family: mine;
+    src: url(./font/MinecraftTen-VGORe.ttf);
+}
+
+body
+{
+background-image: url(./images/533326.jpg);
+}
+.tit
+{
+font-family: mine;
+font-size: 5rem;
+padding: 0.2 rem;
+font-weight: bold;
+transition: all .5s ease;
+}
+
+.tit:hover
+{
+color: white;    
+cursor: pointer;
+}
+
+.navigation ul
+{
+    margin: 5px;
+}
+
+span
+{
+font-family:mine;
+}
+
+nav
+{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc(100vw-1300px) /2;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    padding: 0 1.5rem;
+    font-size: 1.5rem;
+    transition: all .5s ease;
+    font-family: mine;
+}
+
+nav a:hover{
+    cursor:pointer;
+    color:tan;
+    
+}
+.mainbody
+{
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 95vh;
+padding: 3rem calc(100vw-1300px) /2 ;
+}
+
+.left
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding:0rem 2rem;
+}
+
+.left h1{
+    margin-bottom: 1rem;
+font-size: 3rem;
+}
+ .left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold ;
+ font-family: mine;
+ letter-spacing: 2px ;
+ color: black ;
+}
+
+button
+{
+    padding: 1rem 2rem;
+    color:   #3a2e1e;
+    background:  #4a732c;
+    font-weight: 900;
+    font-size: 1rem;
+    border: black 1px solid;
+    font-family: mine;
+    letter-spacing: 10px; 
+    border-radius: 10px;
+    transition: all 0.5s  ease-out;
+}
+ 
+button:hover
+{
+    cursor: pointer;
+    border: solid black 1px;
+    color: #4a732c;
+    background-color: #3a2e1e;
+}
+
+.right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+
+.right img
+{
+    width:100%;
+    height: 50%;
+}
