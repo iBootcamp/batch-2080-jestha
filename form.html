@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            width: 50%;
+        }
+
+        fieldset input {
+            padding: 12px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/action_page.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" placeholder="First Name" name="fname" autofocus>
+            <label for="lname">Second Name</label>
+            <input id="lname" type="text" placeholder="Second Name" name="lname">
+            <br>
+            <!-- radio button => single select garna ko lagi -->
+            <br>
+            <label for="html">HTML</label>
+            <input type="radio" id="html" name="weblearning">
+            <label for="css">CSS</label>
+            <input type="radio" id="css" name="weblearning">
+            <label for="js">JS</label>
+            <input type="radio" id="js" name="weblearning">
+
+            <!-- checkbox => multiple select garna ko lagi-->
+            <label for="nepal">Nepal</label>
+            <input type="checkbox" name="" id="nepal">
+            <label for="china">China</label>
+            <input type="checkbox" name="" id="china">
+            <label for="india">India</label>
+            <input type="checkbox" name="" id="india">
+            <!-- select -->
+            <select name="vehicle" id="vehicle">
+                <option value="volvo">volvo</option>
+                <option value="tata">tata</option>
+                <option value="bike">bike</option>
+            </select>
+
+            <!-- textarea -->
+            <br>
+            <label for="text">Comments</label>
+            <textarea style="resize: none;" name="text" id="text" cols="30" rows="10"></textarea>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
