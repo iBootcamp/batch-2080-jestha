@@ -21,11 +21,11 @@
 </head>
 
 <body>
-    <form action="/action_page.php" method="get" autocomplete="on">
+    <form action="/action_page.php" method="get" autocomplete="on" novalidate>
         <fieldset>
             <legend>Personal Information</legend>
             <label for="fname">First Name</label>
-            <input id="fname" type="text" placeholder="First Name" name="fname" autofocus>
+            <input id="fname" type="text" placeholder="First Name" name="fname" value="Manish" readonly autofocus>
             <label for="lname">Second Name</label>
             <input id="lname" type="text" placeholder="Second Name" name="lname">
             <br>
@@ -47,18 +47,56 @@
             <input type="checkbox" name="" id="india">
             <!-- select -->
             <select name="vehicle" id="vehicle">
-                <option value="volvo">volvo</option>
-                <option value="tata">tata</option>
-                <option value="bike">bike</option>
+                <optgroup label="car1">
+                    <option value="volvo">volvo</option>
+                    <option value="tata">tata</option>
+                    <option value="bike">bike</option>
+                </optgroup>
+                <optgroup label="car2">
+                    <option value="volvo">volvo</option>
+                    <option value="tata">tata</option>
+                    <option value="bike">bike</option>
+                </optgroup>
             </select>
+
+            <input list="address" type="text" name="address" id="" placeholder="addres">
+            <datalist id="address">
+                <option value="ktm">ktm</option>
+                <option value="banepa">banepa</option>
+                <option value="bhaktapur">bhaktapur</option>
+            </datalist>
 
             <!-- textarea -->
             <br>
-            <label for="text">Comments</label>
+            <label for="text">Comments:</label>
             <textarea style="resize: none;" name="text" id="text" cols="30" rows="10"></textarea>
-            <input type="submit">
+            <label for="email">Email:</label>
+            <input type="email" name="email" class="email">
+
+            <input type="file" name="image" id="">
+            <input type="reset">
+            <input type="color" name="color">
+            <input type="submit" formmethod="get" formtarget="blank" disabled>
         </fieldset>
     </form>
+
+    <svg width="200" height="200" style="border: 1px solid red;">
+        <circle cx="60" cy="50" r="30" stroke="blue" stroke-width="2" fill="red" />
+    </svg>
+
+    <svg>
+    </svg>
+
+    <video width="320" height="240"  controls autoplay >
+        <source src="./VID_161059340417F.mp4" type="video/mp4">
+        your video does not supports.
+    </video>
+
+
+    <audio controls>
+        <source src="" type="">
+        yourbrower doesn't support audio.
+    </audio>
 </body>
 
 </html>
