@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            width: 30%;
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+
+        fieldset label {
+            margin: 6px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Result</legend>
+            <p>Check Results</p>
+            <label for="year">Examination Year:</label>
+            <input type="number" name="year" id="year" placeholder="--Select--" autofocus>
+
+            <label for="level">Level:</label>
+            <input type="number" name="year" id="year" placeholder="--Select--">
+
+            <label for="symbolno">Symbol Number:</label>
+            <input type="number" name="year" id="symbolno" placeholder="e.g 10000234">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="date" id="dob" placeholder="Date Format: YYYY-MM-DD">
+
+            <input type="button" value="Search">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

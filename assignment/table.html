@@ -6,19 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            text-align: center;
+            margin: auto;
+            font-family: sans-serif;
+        }
+
         table,
         tr,
         th,
         td {
-            font-family: sans-serif;
+            font-family: monospace;
             border: 1px solid rgb(24, 23, 22);
             border-collapse: collapse;
-
-
+            margin: auto;
+            text-align: left;
         }
 
         th {
             background: violet;
+        }
+
+        .container {
+            background-color: rgb(96, 163, 163);
         }
 
         /* tr:nth-child(odd) {
@@ -32,6 +42,40 @@
 </head>
 
 <body>
+    <div class="container">
+        <h1>Gamvier Samudar setu Engineering Department</h1>
+        <header>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Form</a>
+                <a href="#">Contact</a>
+                <!-- multiple -->
+                <select name="Semester" id="semester" size="">
+                    <a href="#">
+                        <option value="">First Semester</option>
+                    </a>
+                    <a href="#">
+                        <option value="">Second Semester</option>
+                    </a>
+                    <a href="#">
+                        <option value="">Third Semester</option>
+                    </a>
+                    <a href="#">
+                        <option value="">Fourth emester</option>
+                    </a>
+                    <a href="#">
+                        <option value="">Fifth Semester</option>
+                    </a>
+                    <a href="./index.html">
+                        <option value="class">Sixth Semester</option>
+                    </a>
+
+                </select>
+                <a href="#">Notice Board</a>
+                <a href="#"></a>
+            </nav>
+        </header>
+    </div>
     <h2>Routine of diploma in civil engineering</h2>
     <hr>
     <strong> Thid Year/ First Part</strong>
@@ -92,13 +136,7 @@
                 <td>Sanitary Engineering (Sp)</td>
             </tr>
             <tr>
-                <td colspan="2" rowspan="2"> Friday</td>
-                <td>Construction Management (Bs)</td>
-                <td>SDD (Am)</td>
-                <td>Break</td>
-                <td>Surveying-3 (Pb)</td>
-            </tr>
-            <tr>
+                <td colspan="2"> Friday</td>
                 <td>Construction Management (Bs)</td>
                 <td>SDD (Am)</td>
                 <td>Break</td>
