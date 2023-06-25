@@ -12,25 +12,45 @@
             background-color: #000;
             color: #fff;
             font-family: sans-serif;
-
         }
 
         nav {
             display: flex;
+
             justify-content: space-around;
         }
 
+        nav a {
+            color: #fff;
+            font-size: 15px;
+            text-decoration: none;
+
+        }
+
         section {
-            width: 50%;
+            display: flex;
+            width: 100vw;
             margin: auto;
         }
 
         section p {
-            font-size: 23px;
+            font-size: 24px;
+            margin: 160px;
         }
 
         h1 {
-            font-size: 100px;
+            font-size: 150px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+
+        .left-side {
+            text-shadow: 0px 0.5px #fff;
+        }
+
+        .right-side {
+            display: flex;
+            gap: 23px;
         }
 
         aside {
@@ -49,11 +69,40 @@
             margin: 12px;
         }
 
+        .left {
+            margin-left: -40px;
+        }
+
+        .left p {
+            color: gray;
+        }
+
+
+
+        .left h3 {
+            font-size: 24px;
+        }
+
+        .left button,
+        i {
+            margin-top: 180px;
+            cursor: pointer;
+            background-color: transparent;
+            color: #f3e7e7;
+            border: none;
+            font-size: 14px;
+        }
+
         .container img {
             position: relative;
-            left: 120px;
+            left: 109px;
             height: 400px;
             overflow: none;
+        }
+
+        .ice {
+            position: relative;
+            right: 20px;
         }
 
         .lastdiv {
@@ -61,7 +110,7 @@
             height: 200px;
             border-radius: 12px;
             border: none;
-            width: 90%;
+            width: 93%;
             padding: 33px;
         }
 
@@ -81,7 +130,7 @@
             <div class="left-side">
                 <a href="#">SHAKTI SONI</a>
             </div>
-            <div>
+            <div class="right-side">
                 <a href="#">ABOUT</a>
                 <a href="#">WORK</a>
                 <a href="#">RESUME</a>
@@ -98,51 +147,51 @@
         <aside>
             <h2>SELECTED WORK</h2>
             <div class="container">
-                <div>
-                    <p>UX &UI</p>
+                <div class="left">
+                    <p>UX & UI</p>
                     <h3>Agora.io</h3>
                     <button><i class="bi bi-bag"></i> VIEW PROJECT</button>
 
                 </div>
                 <div>
-                    <img src="../photo/6392b70321530f5e88be381d_Agora.io App Builder-p-1080.png" alt="">
+                    <img src="../photo/6392b70321530f5e88be381d_Agora.io App Builder-p-1080.png" alt="" width="570px">
                 </div>
 
             </div>
             <div class="container">
-                <div>
-                    <p>UX &UI</p>
+                <div class="left">
+                    <p>UX & UI</p>
                     <h3>Vodafone ltaly</h3>
                     <button><i class="bi bi-bag"></i> VIEW PROJECT</button>
 
                 </div>
                 <div>
-                    <img src="../photo/61b81ea5e8c9e8fcff782592_Vodafone Italy-p-1080.png" alt="">
+                    <img src="../photo/61b81ea5e8c9e8fcff782592_Vodafone Italy-p-1080.png" alt="" width="570px">
                 </div>
 
             </div>
             <div class="container">
-                <div>
+                <div class="left">
                     <p>UI & UX</p>
                     <h3>Emergency Assistance</h3>
                     <button><i class="bi bi-bag"></i> VIEW PROJECT</button>
 
                 </div>
-                <div>
-                    <img src="../photo/61b81ea5e8c9e86f9d782597_ICE-p-1080.png" alt="">
+                <div class="ice">
+                    <img src="../photo/61b81ea5e8c9e86f9d782597_ICE-p-1080.png" alt="ice" width="570px">
                 </div>
 
             </div>
 
             <div class="container">
-                <div>
-                    <p>UI &UX</p>
+                <div class="left">
+                    <p>UI & UX</p>
                     <h3>Lola</h3>
                     <button><i class="bi bi-bag"></i> VIEW PROJECT</button>
 
                 </div>
                 <div>
-                    <img src="../photo/61b81ea5e8c9e8628b782593_Lola-p-1080.png" alt="">
+                    <img src="../photo/61b81ea5e8c9e8628b782593_Lola-p-1080.png" alt="" width="570px">
                 </div>
 
             </div>
