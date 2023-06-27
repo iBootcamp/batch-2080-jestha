@@ -25,7 +25,7 @@
 - git merge
 - git push => github cloud ma laherw rakhana ko lagi.
 - git checkout -m (oldBranchName) (newbranch) => change the branch name for local.
-- git push origin :old_name new_name => local as well as github 
+- git push origin :old_name new_name => local as well as github
 - git clone (Paste the url)
 - git remote -v => kun origin ma xa vane code.
 - git remote => gives origin default.
