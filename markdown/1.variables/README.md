@@ -40,7 +40,7 @@ console.log(lName); //Error. Var defined inside of the function isn't accessible
 firstName();
 ```
 
-In above example, lName is declared inside the function lastName. So, it is only available to use inside that function. If we use it outside of the function it throws an error. <span style="color:red;">Uncaught ReferenceError: lName is not defined</span>
+In above example, lName is declared inside the function lastName. So, it is only available to use inside that function. If we use it outside of the function it throws an error. `Uncaught ReferenceError: lName is not defined`
 
 ## LET
 
@@ -96,7 +96,7 @@ Similar to let scope of const is block scpoed.
 
 | Var                                                                                  | Let                                                     | Const                                                     |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------- | --------------------------------------------------------- |
-| > Var is hoisted at top level of their scope and initilized with the value undefined | > Let value is not initizlied at top level as undefined | > const value is not initizlied at top level as undefined |
-| > Var is local/functional scoped.                                                    | > Let is block scoped.                                  | > Const is block scoped.                                  |
-| > Var can be redeclared                                                              | > Let can be updated but cannot be redeclared           | > Const cannot be redeclared                              |
-| > Var can be reinitilized                                                            | > Let cannot be reinitialized                           | > Const cannot be reinilialized                           |
+| 1. Var is hoisted at top level of their scope and initilized with the value undefined | 1. Let value is not initizlied at top level as undefined | 1. const value is not initizlied at top level as undefined |
+| 2. Var is local/functional scoped.                                                    | 2. Let is block scoped.                                  | 2. Const is block scoped.                                  |
+| 3. Var can be redeclared                                                              | 3. Let can be updated but cannot be redeclared           | 3. Const cannot be redeclared                              |
+| 4. Var can be reinitilized                                                            | 4. Let cannot be reinitialized                           | 4. Const cannot be reinilialized                           |
