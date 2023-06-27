@@ -16,7 +16,7 @@ name("manish", "shrestha");
 
 // break line
 
-  //console.log("iam \n manish \n shrestha");
+//console.log("iam \n manish \n shrestha");
 
 // Array
 
@@ -44,7 +44,7 @@ const person = {
   eyacolor: "black",
 };
 function name() {
- // console.log(this.firstName + " " + this.lastName);
+  // console.log(this.firstName + " " + this.lastName);
 }
 name();
 
@@ -107,29 +107,26 @@ var a; // typeOF undefined
 var a = null; // typeOf null
 
 // loops
-for ( i = 0; i >5; i++){
-  console.log(i)
-};
+for (i = 0; i > 5; i++) {
+  console.log(i);
+}
 
 // line break and n't
-var esc = " I don\'t know. \n what about javascript?";
- //console.log(esc);
-
+var esc = " I don't know. \n what about javascript?";
+//console.log(esc);
 
 const nepaliLanguage = "nepali";
 
 const smallLetter = nepaliLanguage.toLowerCase();
 const capitalLetter = nepaliLanguage.toUpperCase();
 
- // console.log(capitalLetter);
+// console.log(capitalLetter);
 
- const hello = {
-  error : 'false',
-  debug : 'debugger',
-  defect : ['seee', 'swew', 'wedee']
+const hello = {
+  error: "false",
+  debug: "debugger",
+  defect: ["seee", "swew", "wedee"],
+};
 
- };
-
- delete hello.defect;
- console.log(hello);
-
+delete hello.defect;
+console.log(hello);
