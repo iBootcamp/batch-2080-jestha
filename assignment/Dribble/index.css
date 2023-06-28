@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.first-navbar {
+    display: flex;
+    gap: 320px;
+    height: 75px;
+    align-items: center;
+}
+
+.left-navbar ul {
+    display: flex;
+    gap: 30px;
+}
+
+.left-navbar ul li {
+    display: flex;
+}
+
+.left-navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.right-navbar ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right-navbar ul li {
+    display: flex;
+}
+
+.right-navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.second-navbar {
+    background-color: rgb(166, 179, 104);
+    height: 53px;
+    display: flex;
+    align-items: center;
+}
+
+.second-navbar ul {
+    display: flex;
+    gap: 30px;
+}
+
+.second-navbar ul li {
+    display: flex;
+}
+
+.second-navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.second-navbar ul li a:hover {
+    text-decoration: underline;
+
+}
+
+section {
+    text-align: center;
+    margin-top: 120px;
+}
+
+section .main-head {
+    color: rgb(221, 97, 138);
+    font-weight: bold;
+    font-size: 12.5px;
+}
+
+.head {
+    font-size: 49px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.4;
+}
+
+section p {
+    font-size: 17px;
+}
+
+section button {
+    width: 103px;
+    height: 43px;
+    border: none;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 12px;
+    font-size: 13.5px;
+}
+
+.caption-text {
+    font-size: 12px;
+    color: rgb(105, 103, 100);
+}
+
+aside {
+text-align: center;
+margin-top: 100px;
+}
