@@ -1,0 +1,160 @@
+body
+{
+    font-family: sans-serif;
+}
+
+.nav1
+{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navbutt
+{
+    margin-left: 98vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav1 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2.3vh;
+    /* border: solid 2px red;  sued this to adjust the margins of the element*/
+    padding-bottom: 1px;
+    margin: 2.6vh;
+}
+
+#login
+{
+    background-color:white;
+    font-size:2.3vh;
+    border: 0px;
+    font-weight: 600;
+    transition: 0.3s;
+    border-radius: 10%;
+    height: 7vh;
+    width:auto;
+   
+    margin-right:3vh;
+}
+
+#login:hover
+{
+    background-color:  #ea4c89;
+    color: white;
+    cursor: pointer;
+}
+ 
+#signup
+{
+    background-color:black;
+    font-size:2.3vh;
+    border: 0px;
+    font-weight: 600;
+    transition: 0.3s;
+    border-radius: 10%;
+    height: 7vh;
+    width:auto;
+    color: white;
+}
+
+#signup:hover
+{
+    background-color:  #ea4c89;
+    color:black;
+    cursor: pointer; 
+}
+
+.nav2
+{
+    height: 6vh;
+   
+    padding-top: 3vh;
+    background-color: beige;
+
+}
+
+.nav2 a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 2.3vh;
+    margin: 2.6vh;
+   text-align: justify;
+   transition: 0.3s;
+   font-weight: 550;
+}
+
+.nav2 a:hover
+{
+    text-decoration: underline;
+}
+
+#firtsec
+{
+    /* border:solid red 1px;  done to find the correct margin size
+    */
+    margin:20vh;
+    text-align: center;
+}
+
+#small
+{
+    font-weight: bold;
+    color: #ea4c89;
+    font-size: 2.6vh;
+    /* border: solid red 1px; this is to know the appropirate margin size */
+    margin: 2vh;
+    /* text-transform: capitalize; this only capitalilzes the first letter */
+   text-transform: uppercase;
+}
+
+#big
+{
+    font-size: 11vh;
+    font-family: 'Times New Roman', Times, serif;
+    color:#0d0c22;
+}
+
+#description
+{
+    color: #0d0c22;
+    font-weight: 600;
+    font-size: 2.6vh;
+    margin: 5vh;
+}
+
+#free
+{
+    border-radius: 10%;
+    border: 0px;
+    background-color: #0d0c22;
+    color: white;
+    font-weight: bold;
+    width: 18vh;
+    height: 10vh;
+    font-size: 2.3vh;
+    transition: 0.3s;
+    margin-bottom: 4vh;
+
+}
+
+#free:hover
+{
+    background-color: black;
+    cursor: pointer;
+
+}
+
+span
+{
+    color: gray;
+    text-transform: capitalize;
+
+}

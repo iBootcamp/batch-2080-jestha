@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+        <style>
+           fieldset{
+                display: flex;
+                flex-direction: column;
+            
+                padding: 10px;
+                margin: 10px;
+            }
+
+            form label:hover
+            {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+</html>
+<body>
+    <form action="filke" method="post">
+        <legend>form</legend>
+        <fieldset>
+        <h1>Form</h1>
+        <label for="name"> first name</label>
+        <input type="text" id="name" placeholder="name"/>
+        <label for="lname">last name</label>
+        <input type="text" id="lname" placeholder="last name"/>
+        <label for="pass">password</label>
+        <input type="password" name="pwass" id="pass" placeholder="password">
+        <!-- radio button -->
+        nationality
+        <label for="nepal">Nepal</label>
+        <input type="radio" id="nepal" name="country" />
+        <label for="india">india</label>
+        <input type="radio" id="india" name="country"/>
+        <label for="china">china</label>
+        <input type="radio" id="china" name="country"/>
+        <!-- checkbox button -->
+        <label for="momo">momo</label>
+        <input type="checkbox" name="food" id="momo" />
+        <label for="chowmien">chowmien</label>
+        <input type="checkbox" name="food" id="chowmien"/>
+        <label for="samosa" > samosa</label>
+        <input type="checkbox" name="food" id="samosa"/>
+        grocceries
+        <!-- select tag -->
+        <select name="grocceries" id="grocceries" size="2" multiple>
+            <option value="cheese">
+                cheese
+            </option>
+            <option value="milk">
+                milik
+            </option>
+            <option value="meat">
+              meat
+            </option>
+        </select>
+        <input type="submit">
+        <label for="comment"> comment</label>
+        <textarea type="textarea" id="comment" name="comment" cols="5" rows="6" style="resize: none;">
+        </fieldset></form>
+</body>
