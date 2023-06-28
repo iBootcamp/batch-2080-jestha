@@ -7,6 +7,9 @@
     <title>Calculator</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
             background: black;
             color: #fff;
             font-family: sans-serif;
@@ -19,9 +22,9 @@
 
         .container {
             text-align: center;
-            background-image: linear-gradient(red, rgb(54, 54, 95));
+            background-image: linear-gradient(rgb(37, 36, 36), rgb(54, 54, 95));
             width: 300px;
-            border: 2px solid rgb(53, 33, 33);
+            border: 2px solid rgb(78, 73, 73);
             border-radius: 12px;
             padding: 10px;
             margin: 12px;
@@ -47,12 +50,23 @@
             margin-bottom: 10px;
             border-radius: 50px;
             font-size: 20px;
+            text-align: center;
         }
 
 
         .operator {
             background: rgb(25, 25, 136);
             font-size: 29px;
+        }
+
+        h4 {
+            background: linear-gradient(to right, #121FCF 33%, #CF1512 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .ac {
+            background: rgba(2, 65, 2, 0.808);
         }
     </style>
 
@@ -64,9 +78,9 @@
             <h4>Simple calculator</h4>
             <table>
                 <form>
-                    <input type="text" class="screen" name="screen">
+                    <input type="text" class="screen" name="screen" value="">
                     <tr>
-                        <td><input type="button" value="AC" class="AC"> </td>
+                        <td><input type="button" value="AC" class="ac"> </td>
                         <td> <input type="button" value="( )" class="operator"></td>
                         <td> <input type="button" value="%" class="operator"></td>
                         <td><input type="button" value="÷" class="operator"> </td>
