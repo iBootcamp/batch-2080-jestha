@@ -10,6 +10,7 @@ body {
     gap: 473px;
     height: 100px;
     align-items: center;
+justify-content: center;
 }
 
 .left-navbar ul {
@@ -30,6 +31,11 @@ body {
 
 .left-navbar ul li a:hover {
     color: #5e5c5e;
+}
+
+.left-navbar img {
+    position: relative;
+    bottom: 29px;
 }
 
 .right-navbar ul {
@@ -137,8 +143,8 @@ section p {
 
 
 section button {
-    width: 120px;
-    height: 54px;
+    width: 125px;
+    height: 64px;
     border: none;
     text-align: center;
     background-color: rgb(14, 14, 44);
@@ -158,7 +164,7 @@ section button a {
 }
 
 .caption-text {
-    font-size: 17px;
+    font-size: 15px;
     color: rgb(105, 103, 100);
 }
 
@@ -246,8 +252,8 @@ aside p {
 }
 
 .new-div button {
-    width: 120px;
-    height: 54px;
+    width: 125px;
+    height: 64px;
     border: none;
     text-align: center;
     color: aliceblue;
@@ -279,40 +285,161 @@ aside p {
 }
 
 .new-div .caption-text {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 footer {
     display: flex;
     justify-content: space-around;
+    height: 650px;
+    background: #fff; 
+}
+
+.left-footer {
+    margin: 42px;
+}
+
+.left-footer .top div img {
+    width: 120px;
+    height: 100px;
+}
+
+.left-footer .top p {
+    font-size: 17px;
+    color: #1d1c1d;
+}
+
+.left-footer .icon {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    color: #413d41;
+}
+
+.left-footer .last {
+    margin-top: 380px;
+    color: #333133;
+    font-size: 15px;
+}
+
+.first-column {
+    margin-top: 45px;
 }
 
 .first-column ul li {
     display: flex;
-    margin-top: 12px;
-    font-size: 16px;
 }
 
-.first-column ul li {
+.first-column ul li a {
+    text-decoration: none;
+    color: #000;
     display: flex;
     margin-top: 12px;
-    font-size: 16px;
+    font-size: 15.5px;
+}
+
+.first-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.first-column ul h4 {
+    font-size: 15.5px;
+}
+
+
+.second-column {
+    margin-top: 45px;
 }
 
 .second-column ul li {
     display: flex;
+}
+
+.second-column ul li a {
+    display: flex;
     margin-top: 12px;
-    font-size: 16px;
+    font-size: 15.5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.second-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.second-column ul h4 {
+    font-size: 15.5px;
+}
+
+
+.third-column {
+    margin-top: 45px;
 }
 
 .third-column ul li {
     display: flex;
     margin-top: 12px;
-    font-size: 16px;
+}
+
+.third-column ul li a {
+    font-size: 15.5px;
+    color: #000;
+    text-decoration: none;
+}
+
+.third-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.third-column ul h4 {
+    font-size: 15.5px;
+}
+
+
+.Fourth-column {
+    position: relative;
+    margin-top: 45px;
+    top: 30px;
 }
 
 .fourth-column ul li {
     display: flex;
-    margin-top: 12px;
-    font-size: 16px;
+    margin-top: 22px;
+}
+
+.fourth-column ul li a {
+    font-size: 15.5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.fourth-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.fourth-column ul h4 {
+    font-size: 15.5px;
+}
+
+.fifth-column {
+    margin-top: 45px;
+}
+
+.fifth-column ul li {
+    display: flex;
+    margin-top: 22px;
+}
+
+.fifth-column ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15.5px;
+}
+
+.fifth-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.fifth-column ul h4 {
+    font-size: 15.5px;
 }
