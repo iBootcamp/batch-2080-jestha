@@ -2,12 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
 }
 
 .first-navbar {
     display: flex;
-    gap: 320px;
-    height: 75px;
+    gap: 333px;
+    height: 85px;
     align-items: center;
 }
 
@@ -22,14 +24,14 @@ body {
 
 .left-navbar ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(52, 51, 61);
     font-size: 12px;
     font-weight: bold;
 }
 
 .right-navbar ul {
     display: flex;
-    gap: 34px;
+    gap: 12px;
 }
 
 .right-navbar ul li {
@@ -38,15 +40,51 @@ body {
 
 .right-navbar a {
     text-decoration: none;
-    color: black;
-    font-size: 14px;
+}
+
+.right-navbar .log-in {
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-top: 12px;
+    color: rgb(26, 25, 25);
+
+}
+
+.right-navbar .sign-up {
+    width: 72px;
+    height: 35px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(22, 21, 21);
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.right-navbar .sign-up:hover {
+    background: #413d41;
+}
+
+.left-navbar .go {
+    color: rgb(221, 97, 138);
 }
 
 .second-navbar {
-    background-color: rgb(166, 179, 104);
+    background-color: rgba(235, 231, 231, 0.829);
     height: 53px;
     display: flex;
     align-items: center;
+    text-align: right;
+    line-height: 1.2em;
+    /* width: 100vw;
+     position: fixed;
+    top: 0;
+    margin-top: 76px; */
 }
 
 .second-navbar ul {
@@ -60,8 +98,9 @@ body {
 
 .second-navbar ul li a {
     text-decoration: none;
-    color: black;
-    font-size: 13px;
+    color: rgb(37, 36, 36);
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .second-navbar ul li a:hover {
@@ -81,24 +120,28 @@ section .main-head {
 }
 
 .head {
-    font-size: 49px;
+    font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1.4;
+    margin-top: 13px;
+    color: rgb(4, 4, 31);
 }
 
-section p {
-    font-size: 17px;
-}
 
 section button {
     width: 103px;
-    height: 43px;
+    height: 49px;
     border: none;
     text-align: center;
-    color: aliceblue;
-    background-color: black;
-    border-radius: 12px;
+    background-color: rgb(4, 4, 31);
+    border-radius: 5px;
     font-size: 13.5px;
+    cursor: pointer;
+}
+
+section button a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .caption-text {
@@ -107,6 +150,105 @@ section button {
 }
 
 aside {
-text-align: center;
-margin-top: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.board {
+    display: flex;
+    gap: 0px;
+    margin-top: 60px;
+}
+
+.left-side {
+    padding-left: 100px;
+}
+
+.job-board {
+    width: 93px;
+    height: 33px;
+    border: none;
+    border-radius: 22px;
+    background-color: rgb(222, 181, 102);
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.left-side .talent {
+    font-size: 41px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.4;
+    margin-top: 34px;
+
+}
+
+.left-side p {
+    font-size: 14px;
+    line-height: -4px;
+    letter-spacing: 0.5px;
+}
+
+.board .left-side .visit {
+    width: 153px;
+    height: 43px;
+    border: none;
+    text-align: center;
+    background-color: rgb(4, 4, 31);
+    border-radius: 5px;
+    font-size: 13.5px;
+    cursor: pointer;
+}
+
+.board .left-side .visit a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.right-side iframe {
+    border: 30px solid #f59ee9;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.new-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    background-color: #f5c9ef;
+    align-items: center;
+    height: 400px;
+
+}
+
+.new-div button {
+    width: 103px;
+    height: 49px;
+    border: none;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(4, 4, 31);
+    border-radius: 5px;
+    font-size: 13.5px;
+    cursor: pointer;
+}
+
+.new-div a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.find-head {
+    font-size: 51px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.4;
+
+
+}
+
+.new-div .text {
+    font-size: 16px;
 }
