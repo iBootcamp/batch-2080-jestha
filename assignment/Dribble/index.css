@@ -7,10 +7,10 @@ body {
 
 .first-navbar {
     display: flex;
-    gap: 473px;
-    height: 100px;
+    gap: 430px;
+    height: 105px;
     align-items: center;
-justify-content: center;
+    justify-content: flex-start;
 }
 
 .left-navbar ul {
@@ -20,6 +20,7 @@ justify-content: center;
 
 .left-navbar ul li {
     display: flex;
+    margin-top: 65px;
 }
 
 .left-navbar ul li a {
@@ -35,7 +36,8 @@ justify-content: center;
 
 .left-navbar img {
     position: relative;
-    bottom: 29px;
+    bottom: 31px;
+
 }
 
 .right-navbar ul {
@@ -85,12 +87,13 @@ justify-content: center;
 }
 
 .second-navbar {
-    background-color: rgba(235, 231, 231, 0.829);
-    height: 65px;
+    background-color: rgb(246, 244, 238);
+    order: 1;
     display: flex;
     align-items: center;
     text-align: right;
     line-height: 1.2em;
+    height: 65px;
     /* width: 100vw;
      position: fixed;
     top: 0;
@@ -108,9 +111,10 @@ justify-content: center;
 
 .second-navbar ul li a {
     text-decoration: none;
-    color: rgb(37, 36, 36);
-    font-size: 14.5px;
+    color: rgb(20, 19, 19);
+    font-size: 15.5px;
     font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .second-navbar ul li a:hover {
@@ -126,7 +130,8 @@ section {
 section .main-head {
     color: rgb(221, 97, 138);
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15.5px;
+    letter-spacing: 0rem;
 }
 
 .head {
@@ -291,8 +296,8 @@ aside p {
 footer {
     display: flex;
     justify-content: space-around;
-    height: 650px;
-    background: #fff; 
+    height: 590px;
+    background: #fff;
 }
 
 .left-footer {
@@ -306,21 +311,20 @@ footer {
 
 .left-footer .top p {
     font-size: 17px;
-    color: #1d1c1d;
+    color: #201f20;
 }
 
 .left-footer .icon {
     display: flex;
-    gap: 15px;
-    font-size: 20px;
-    color: #413d41;
+    gap: 8px;
 }
 
-.left-footer .last {
-    margin-top: 380px;
+.left-footer .icon a {
+    font-size: 21px;
+
     color: #333133;
-    font-size: 15px;
 }
+
 
 .first-column {
     margin-top: 45px;
@@ -442,4 +446,15 @@ footer {
 
 .fifth-column ul h4 {
     font-size: 15.5px;
+}
+
+.last {
+    color: #3d3c3c;
+    font-size: 15px;
+    margin-top: 35px;
+    padding-left: 45px;
+}
+
+hr {
+    width: 95%;
 }
