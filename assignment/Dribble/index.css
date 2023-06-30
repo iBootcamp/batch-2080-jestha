@@ -201,7 +201,6 @@ aside p {
     color: #000;
     font-size: 15px;
     font-weight: bold;
-
 }
 
 .left-side .talent {
@@ -209,7 +208,6 @@ aside p {
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1.4;
     margin-top: 34px;
-
 }
 
 .left-side p {
@@ -244,6 +242,69 @@ aside p {
     border-radius: 12px;
     margin-right: 20px;
 }
+
+
+.left-side-2 {
+    padding-left: 60px;
+    margin-right: 40px;
+}
+.left-side-2 iframe {
+    border: 30px solid  #b0e9d2 ;
+    border-radius: 12px;
+
+}
+
+.board-2 {
+    display: flex;
+    gap: 26px;
+    margin-top: 150px;
+}
+
+.job-board-2 {
+    width: 155px;
+    height: 42px;
+    border: none;
+    border-radius: 22px;
+    background-color: #b0e9d2;
+    color: #000;
+    font-size: 13.8px;
+font-weight: bold;
+}
+
+.right-side-2 .talent-2 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.4;
+    margin-top: 34px;
+}
+
+.right-side-2 p {
+    font-size: 17px;
+    line-height: -4px;
+    letter-spacing: 0.5px;
+    color: #000;
+}
+
+.board-2 .right-side-2 .visit-2 {
+    width: 165px;
+    height: 56px;
+    border: none;
+    text-align: center;
+    background-color: rgb(14, 14, 44);
+    border-radius: 5px;
+    font-size: 15.5px;
+    cursor: pointer;
+}
+
+.board-2 .right-side-2 .visit-2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.board-2 .right-side-2 .visit-2:hover {
+    background-color: #000;
+}
+
 
 .new-div {
     display: flex;
