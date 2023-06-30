@@ -176,16 +176,23 @@ section button a {
 aside {
     text-align: center;
     margin-top: 100px;
+    line-height: 60px;
 }
 
 aside p {
     font-size: 21px;
 }
 
+aside .image-logo {
+    display: flex;
+    gap: 70px;
+    margin-left: 150px;
+}
+
 .board {
     display: flex;
     gap: 20px;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .left-side {
@@ -248,15 +255,16 @@ aside p {
     padding-left: 60px;
     margin-right: 40px;
 }
+
 .left-side-2 iframe {
-    border: 30px solid  #b0e9d2 ;
+    border: 30px solid #b0e9d2;
     border-radius: 12px;
 
 }
 
 .board-2 {
     display: flex;
-    gap: 26px;
+    gap: 20px;
     margin-top: 150px;
 }
 
@@ -268,7 +276,7 @@ aside p {
     background-color: #b0e9d2;
     color: #000;
     font-size: 13.8px;
-font-weight: bold;
+    font-weight: bold;
 }
 
 .right-side-2 .talent-2 {
@@ -305,6 +313,62 @@ font-weight: bold;
     background-color: #000;
 }
 
+.team {
+    display: flex;
+   
+    margin-top: 120px;
+    gap: 30px;
+}
+
+
+.team .para {
+    border: 1px solid rgb(172, 161, 161);
+    width: 600px;
+    height: 400px;
+    background: #c5b7c5;
+    border-radius: 12px;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.team .para:hover {
+    border: none;
+    color: #885281;
+    background-color: rgb(14, 14, 44);
+}
+
+.team .para .text {
+    font-size: 26px;
+    margin-left: 40px;
+}
+
+.circle-img {
+    display: flex;
+    margin-left: 40px;
+    gap: 20px;
+    margin-top:150px;
+}
+
+.team .circle-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.team .circle-img p {
+    position: relative;
+    bottom: 10px;
+    font-size: 19px;
+}
+
+.team .circle-img p span {
+    color: #201f20;
+}
+
+.team .team-image {
+    border-radius: 12px;
+    margin-left: 100px;
+}
 
 .new-div {
     display: flex;
@@ -356,8 +420,7 @@ font-weight: bold;
 
 footer {
     display: flex;
-    justify-content: space-around;
-    height: 590px;
+    height: 600px;
     background: #fff;
 }
 
@@ -382,7 +445,6 @@ footer {
 
 .left-footer .icon a {
     font-size: 21px;
-
     color: #333133;
 }
 
@@ -462,14 +524,12 @@ footer {
 
 
 .Fourth-column {
-    position: relative;
     margin-top: 45px;
-    top: 30px;
 }
 
 .fourth-column ul li {
     display: flex;
-    margin-top: 22px;
+    margin-top: 12px;
 }
 
 .fourth-column ul li a {
@@ -486,7 +546,8 @@ footer {
     font-size: 15.5px;
 }
 
-.fifth-column {
+.fifth-column,
+.fourth-column {
     margin-top: 45px;
 }
 
@@ -497,7 +558,7 @@ footer {
 
 .fifth-column ul li a {
     text-decoration: none;
-    color: #000;
+    color: #000000;
     font-size: 15.5px;
 }
 
