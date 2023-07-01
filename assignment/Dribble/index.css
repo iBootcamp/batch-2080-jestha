@@ -130,7 +130,7 @@ section {
 section .main-head {
     color: rgb(221, 97, 138);
     font-weight: bold;
-    font-size: 15.5px;
+    font-size: 14.5px;
     letter-spacing: 0rem;
 }
 
@@ -315,7 +315,7 @@ aside .image-logo {
 
 .team {
     display: flex;
-   
+
     margin-top: 120px;
     gap: 30px;
 }
@@ -346,7 +346,7 @@ aside .image-logo {
     display: flex;
     margin-left: 40px;
     gap: 20px;
-    margin-top:150px;
+    margin-top: 150px;
 }
 
 .team .circle-img img {
@@ -368,6 +368,54 @@ aside .image-logo {
 .team .team-image {
     border-radius: 12px;
     margin-left: 100px;
+}
+
+.world-class {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.world-class h1 {
+    font-size: 45px;
+    font-weight: normal;
+    font-family: 'poppins', sans-serif;
+}
+
+.brands {
+    display: flex;
+    text-align: left;
+    margin-top: 42px;
+}
+
+.side-left {
+    margin-left: 30px;
+
+}
+
+.side-left h3 {
+    font-size: 20px;
+    width: 177px;
+    background-color: #d3f8e9;
+}
+
+.side-left div p {
+    font-size: 17px;
+    color: #333133;
+}
+
+.side-left div i {
+    font-size: 29px;
+}
+
+
+.side-left div {
+    margin: 45px;
+}
+
+.side-right img {
+    border-radius: 42px;
+    margin-top: 100px;
+
 }
 
 .new-div {

@@ -10,28 +10,23 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-color: black;
-            color: #fff;
+            color: #000;
         }
 
         fieldset {
             display: flex;
             flex-direction: column;
             margin: auto;
-            width: 30%;
+            width: 25%;
             height: 500px;
             font-size: 14px;
             font-family: sans-serif;
         }
 
-        fieldset:hover {
-            background: #121FCF;
-        }
-
 
         fieldset label {
             margin-left: 8px;
-
+            font-size: 16px;
         }
 
         fieldset input {
@@ -40,10 +35,10 @@
 
         p {
             background: linear-gradient(to right, #121FCF 33%, #CF1512 100%);
-            -webkit-background-clip:text;
+            -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-align: center;
-            font-size: 17px;
+            font-size: 20px;
         }
 
 
@@ -57,7 +52,7 @@
 </head>
 
 <body>
-    <form action="" method="get" autocomplete="on">
+    <form action="/action.php" method="get" autocomplete="on">
         <fieldset>
             <legend>Result</legend>
             <p>Check Results</p>
