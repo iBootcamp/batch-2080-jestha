@@ -11,26 +11,22 @@
             padding: 0;
             box-sizing: border-box;
             color: #000;
+            font-family: sans-serif;
         }
 
-        fieldset {
+        .container {
             display: flex;
             flex-direction: column;
             margin: auto;
             width: 25%;
             height: 500px;
+            text-align: center;
             font-size: 14px;
             font-family: sans-serif;
         }
 
-
-        fieldset label {
-            margin-left: 8px;
-            font-size: 16px;
-        }
-
-        fieldset input {
-            margin: 6px;
+        fieldset {
+            border: none;
         }
 
         p {
@@ -38,41 +34,55 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-align: center;
-            font-size: 20px;
+            font-size: 15px;
         }
-
 
         input {
             width: 300px;
             height: 30px;
-            border: none;
-            background: #a0a0aa;
         }
     </style>
 </head>
 
 <body>
-    <form action="/action.php" method="get" autocomplete="on">
-        <fieldset>
-            <legend>Result</legend>
-            <p>Check Results</p>
-            <label for="year">Examination Year:</label>
-            <input type="number" name="year" id="year" placeholder="--Select--" autofocus>
+    <div class="container">
+        <div class="card-logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSktQIzlYKJGjw7FtR8HskEJAj2OxIuayAJg&usqp=CAU"
+                alt="logo" width="60px" height="60px">
+        </div>
+        <div class="form-header">
+            Sign In
+        </div>
+        <p>Please login to use plateform</p>
+        <form action="/action.php" method="get" autocomplete="on">
+            <fieldset>
+                <div class="form-item">
+                    <label for="email"></label>
+                    <input type="email" name="email" class="email" placeholder="Enter Email" autofocus>
+                </div>
+                <div class="form-item">
+                    <label for="level"></label>
+                    <input type="password" name="password" placeholder="Enter password">
+                </div>
+                <div class="form-item-other">
+                    <div class="checkbox">
+                        <input type="checkbox" name="check">
+                        <label for="check">Remember Me</label>
+                    </div>
+                    <a href="#">I forget my password</a>
+                </div>
+                <div class="click-button">
 
-            <label for="level">Level:</label>
-            <input type="text" name="ctvet" id="level" placeholder="--Select--">
+                    <input type="button" value=" Reset">
+                    <input type="button" value="Log In">
+                </div>
+            </fieldset>
+        </form>
+        <div class="login-card-footer">
+            Don't have an account? <a href="#Create a free account">Create a free account.</a>
+        </div>
+    </div>
 
-            <label for="symbolno">Symbol Number:</label>
-            <input type="number" name="year" id="symbolno" placeholder="e.g 10000234">
-
-            <label for="dob">Date of Birth:</label>
-            <input type="date" name="date" id="dob" placeholder="Date Format: YYYY-MM-DD">
-
-            <input type="reset">
-            <input type="submit">
-            <input type="button" value="Search">
-        </fieldset>
-    </form>
 </body>
 
 </html>

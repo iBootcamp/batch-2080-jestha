@@ -1,5 +1,33 @@
-const age = 12;
+// date.html file script
+// const dataInput = document.querySelector("input");
+// const pElement = document.querySelector("p");
 
+// dataInput.addEventListener("change", () => {
+//   const birthDate = new Date(dateInput.value);
+//   const currentDate = new Date();
+//   const newDate = new Date(currentDate - birthDate);
+
+//   const year = newDate.getFullYear() - 1970;
+//   const months = newDate.getMonth();
+//   const days = newDate.getDate() - 1;
+//   pElement.innerText = "your're ${years}years ${months}months ${days}days old.";
+// });
+
+const dataInput = document.querySelector("input");
+const pElement = document.querySelector("p");
+
+dataInput.addEventListener("change", () => {
+  const birthDate = new Date(dataInput.value);
+  const currentDate = new Date();
+  const newDate = new Date(currentDate - birthDate);
+
+  const years = newDate.getFullYear() - 1970;
+  const months= newDate.getMonth();
+  const days = newDate.getDate() - 1;
+  pElement.innerText = `your're ${years}years ${months}months ${days}days old.`;
+});
+
+const age = 12;
 if (age > 12) {
   console.log("you can play the video game.");
 } else if (age < 23) {
@@ -43,6 +71,7 @@ const person = {
   age: 25,
   eyacolor: "black",
 };
+
 function name() {
   // console.log(this.firstName + " " + this.lastName);
 }
