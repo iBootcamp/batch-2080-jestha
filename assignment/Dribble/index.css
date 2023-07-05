@@ -628,3 +628,9 @@ footer {
 hr {
     width: 95%;
 }
+
+/* @media screen and (min-width:667px) {
+    header {
+        width: 50%;
+    }
+} */

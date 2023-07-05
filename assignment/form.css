@@ -8,7 +8,7 @@
      background-image: linear-gradient(blue, pink);
      background-repeat: no-repeat;
      background-size: cover;
-     height:100vh;
+     height: 100vh;
  }
 
  .container {
@@ -113,7 +113,7 @@
  .form-item-other a {
      text-decoration: none;
      margin-top: 4px;
-color: red;
+     color: red;
  }
 
  .checkbox {
@@ -141,7 +141,7 @@ color: red;
      border: 1px solid black;
      background-color: black;
      color: #fff;
-font-size: 15.5px;
+     font-size: 15.5px;
  }
 
  .click-button input:hover {
@@ -156,5 +156,12 @@ font-size: 15.5px;
 
  .login-card-footer a {
      text-decoration: none;
-color: green;
+     color: green;
+
+ }
+
+ @media screen  and (max-width:667px) {
+     .container {
+         width: 90%;
+     }
  }
