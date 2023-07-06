@@ -4,15 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <title>About</title>
     <style>
         body {
             text-align: center;
+            font-family: sans-serif;
+        }
+
+        .container {
+            margin-top: 60px;
+        }
+
+        .container span {
+            color: purple;
+        }
+
+        .container h1 {
+            text-decoration: underline blue;
         }
 
         main {
             text-align: left;
+            margin-left: 100px;
+            margin-top: 100px;
         }
+
+        main h4 {
+            font-size: 26px;
+
+        }
+
+        main p {
+            font-size: 18px;
+            line-height: 20px;
+        }
+
+        button {
+            width: 110px;
+            height: 34px;
+            background: rgb(54, 77, 180);
+            color: #fff;
+            border: none;
+            border-radius: 22px;
+            margin-top: 12px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+.progress{
+margin: 15px;}
     </style>
 </head>
 
@@ -20,22 +63,30 @@
     <div class="container">
         <span>WHO AM I</span>
         <h1>About me</h1>
+
+        <main>
+            <h4>Hello, i'm</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione sunt vitae culpa <br> qui, illum
+                laboriosam maiores minus dolore a fugiat ipsam quas alias <br> doloremque quibusdam iure ea explicabo
+                quaerat rem et, error sequi? <br>Aut atque maiores ipsam ex!</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-primary" role="progressbar" style="width:70%">
+                    HTML
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+                    CSS
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" style="width:10%;">
+                    Javascript
+                </div>
+            </div>
+            <button>READ MORE</button>
+        </main>
     </div>
-    <main>
-        <h4>Hello, i'm</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione sunt vitae culpa doloribus qui, illum
-            laboriosam maiores minus dolore a fugiat ipsam quas alias deleniti doloremque quibusdam iure ea explicabo
-            quaerat rem et, error sequi? Aut atque maiores ipsam ex!</p>
-        <div class="progress-bar">
-            <label for="html"> HTML</label>
-            <progress name="html"></progress>
-            <label for="css"> CSS</label>
-            <progress name="css"></progress>
-            <label for="javascript">JavaScript</label>
-            <progress name="javascript"></progress>
-        </div>
-        <button>READ MORE</button>
-    </main>
 </body>
 
 </html>

@@ -6,7 +6,9 @@
 }
 
 .container {
-    background-color: rgb(17, 16, 16);
+    background-image: url(https://wallpapers.com/images/hd/2440x1440-amoled-background-2440-x-1440-14er502d2c2jwj6v.jpg);
+background-repeat: no-repeat;
+background-size: cover;
     color: #fff;
     width: 90%;
     height: 90vh;
