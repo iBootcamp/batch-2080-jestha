@@ -28,7 +28,18 @@
             border-radius: 12px;
             padding: 10px;
             margin: 12px;
+            position: relative;
         }
+
+        /*.container::before {
+            content: '';
+            position: absolute;
+            background: rgba(255, 255, 255, .3);
+            inset: 0;
+            transform: rotate(-5deg);
+            z-index: -1;
+            border-radius: 12px;
+        } */
 
         tr td input {
             align-items: center;
@@ -39,6 +50,7 @@
             height: 70px;
             border: none;
             border-radius: 50px;
+            cursor: pointer;
         }
 
         .screen {
@@ -48,9 +60,9 @@
             color: #fff;
             border: none;
             margin-bottom: 10px;
-            border-radius: 50px;
-            font-size: 20px;
-            text-align: center;
+            font-size: 22px;
+            border-radius: 1px;
+            text-align: right;
         }
 
 
@@ -78,36 +90,47 @@
             <h4>Simple calculator</h4>
             <table>
                 <form>
-                    <input type="text" class="screen" name="screen" value="">
                     <tr>
-                        <td><input type="button" value="AC" class="ac"> </td>
-                        <td> <input type="button" value="( )" class="operator"></td>
-                        <td> <input type="button" value="%" class="operator"></td>
-                        <td><input type="button" value="÷" class="operator"> </td>
+                        <td colspan="4">
+                            <input type="text" class="screen" name="screen">
+                        </td>
                     </tr>
                     <tr>
-                        <td> <input type="button" value="7" onclick="screen.value='7'"></td>
-                        <td> <input type="button" value="8"></td>
-                        <td> <input type="button" value="9"></td>
-                        <td> <input type="button" value="x" class="operator"></td>
+                        <td><input type="button" value="AC" class="ac" onclick="screen.value=''"> </td>
+                        <td> <input type="button" value="( )" class="operator" onclick="screen.value='( )'"></td>
+                        <td> <input type="button" value="%" class="operator" onclick="screen.value=screen.value + '%'">
+                        </td>
+                        <td><input type="button" value="÷" class="operator" onclick="screen.value=screen.value +'/'">
+                        </td>
                     </tr>
                     <tr>
-                        <td> <input type="button" value="4"></td>
-                        <td> <input type="button" value="5"></td>
-                        <td> <input type="button" value="6"></td>
-                        <td> <input type="button" value="-" class="operator"></td>
+                        <td> <input type="button" value="7" onclick="screen.value=screen.value +'7'"></td>
+                        <td> <input type="button" value="8" onclick="screen.value=screen.value +'8'"></td>
+                        <td> <input type="button" value="9" onclick="screen.value= screen.value +'9'"></td>
+                        <td> <input type="button" value="x" class="operator" onclick="screen.value=screen.value +'*'">
+                        </td>
                     </tr>
                     <tr>
-                        <td> <input type="button" value="1"></td>
-                        <td> <input type="button" value="2"></td>
-                        <td> <input type="button" value="3"></td>
-                        <td> <input type="button" value="+" class="operator"></td>
+                        <td> <input type="button" value="4" onclick="screen.value=screen.value +'4'"></td>
+                        <td> <input type="button" value="5" onclick="screen.value=screen.value +'5'"></td>
+                        <td> <input type="button" value="6" onclick="screen.value=screen.value +'6'"></td>
+                        <td> <input type="button" value="-" class="operator" onclick="screen.value=screen.value +'-'">
+                        </td>
                     </tr>
                     <tr>
-                        <td> <input type="button" value="0"></td>
-                        <td> <input type="button" value="."></td>
-                        <td> <input type="button" value="⌫"></td>
-                        <td> <input type="button" value="=" class="operator"></td>
+                        <td> <input type="button" value="1" onclick="screen.value=screen.value +'1'"></td>
+                        <td> <input type="button" value="2" onclick="screen.value=screen.value +'2'"></td>
+                        <td> <input type="button" value="3" onclick="screen.value=screen.value +'3'"></td>
+                        <td> <input type="button" value="+" class="operator" onclick="screen.value=screen.value +'+'">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="button" value="0" onclick="screen.value=screen.value +'0'"></td>
+                        <td> <input type="button" value="." onclick="screen.value=screen.value +'.'"></td>
+                        <td><input type="button" value="⌫" class="operator"
+                                onclick="screen.value=screen.value.toString().slice(0,-1)"></td>
+                        <td><input type="button" value="=" class="operator" onclick="screen.value=eval(screen.value)">
+                        </td>
                     </tr>
                 </form>
             </table>
