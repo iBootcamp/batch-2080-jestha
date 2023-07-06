@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Image-Search App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .container {
+            margin-top: 30px;
+        }
+
+        .container h1 {
+            font-size: 29px;
+            color: rgb(14, 15, 15);
+        }
+
+        .container h1 span {
+            color: rgb(0, 255, 98);
+        }
+
+        .input-side {
+            display: flex;
+            gap: 20px;
+        }
+
+        .input-item {
+            margin: auto;
+            margin-top: 45px;
+        }
+
+        .input-item input {
+            border: 1px solid gray;
+            width: 305px;
+            height: 32px;
+            font-size: 15px;
+        }
+
+        .input-item button {
+            width: 100px;
+            height: 34px;
+            background-color: rgba(3, 53, 3, 0.87);
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 17px;
+        }
+
+        main {
+            margin-top: 65px;
+        }
+
+        .image-container {
+            display: flex;
+            text-align: left;
+            gap: 50px;
+            margin: 30px;
+        }
+
+        .image-item {
+            width: 330px;
+            height: 260px;
+            box-shadow: 1px 2px 2px 1px gray;
+        }
+
+        .image-item img {
+            width: 330px;
+            height: 200px;
+            border-radius: none;
+            box-shadow: 1px 1px 1px 0px gray;
+            cursor: pointer;
+        }
+
+        .image-item img:hover {
+            box-shadow: 1px 1px 2px 2px gray;
+            border-radius: 2px;
+
+        }
+
+        .image-item p {
+            margin: 12px;
+            margin-top: 15px;
+            font-size: 16.5px;
+            color: rgb(41, 41, 41);
+            cursor: text;
+        }
+
+        .search-more {
+            width: 135px;
+            height: 34px;
+            background-color: rgb(24, 24, 209);
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+
+        }
+
+        .search-more:hover {
+            box-shadow: 1px 1px 2px 2px gray;
+        }
+
+        footer .pagination {
+            margin-left: 400px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Image Search <span>App</span> </h1>
+        <div class="input-side">
+            <div class="input-item">
+                <input type="text" name="Image" placeholder="Search for image">
+                <button class="btn btn-primary">Search</button>
+            </div>
+        </div>
+        <main>
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="./image/a-game-character-enchantress-wearing-red-clothes-and-horns-created-by-Fotor-ai-image-generator.webp"
+                        alt="Image">
+                    <p>Free AI Image Generator:Text to image Online|Fotor</p>
+                </div>
+                <div class="image-item">
+                    <img src="./image/3-before.webp" alt="Image">
+                    <p>Remove Background form Image</p>
+                </div>
+                <div class="image-item">
+                    <img src="./image/3.jpg" alt="Image">
+                    <p>Free Imaage Enhancer & Upscaler</p>
+                </div>
+
+            </div>
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="./image/60638bd66183e1001981966a.webp" alt="Image">
+                    <p>Laptop</p>
+                </div>
+                <div class="image-item">
+                    <img src="./image/depositphotos_4348997-stock-photo-sitting-monkey-on-swayambhunath-stupa.jpg"
+                        alt="Image">
+                    <p>Monkey on The Swayambhunath stupa</p>
+                </div>
+                <div class="image-item">
+                    <img src="./image/file-6113d5f8845dc.jpeg" alt="Image">
+                    <p>Tiger sit in the grass on the earth surface.</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="./image/images (4).jpg" alt="Image">
+                    <p>Head Scarf stock photos</p>
+                </div>
+                <div class="image-item">
+                    <img src="./image/Landscape-Color.jpg" alt="Image">
+                    <p>Mountains under The Lake</p>
+                </div>
+                <div class="image-item">
+                    <img src="./image/temple.jpg" alt="Image">
+                    <p>Mountains under The Temple</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="./image/images (1).jpg" alt="Image">
+                    <p>Beautiful City</p>
+                </div>
+                <div class="image-item">
+                    <img src="./image/images (2).jpg" alt="Image">
+                    <p>Beautiful Fower</p>
+                </div>
+                <div class="image-item">
+                    <img src="./image/images (3).jpg" alt="Image">
+                    <p>Night View of sea</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="./image/istockphoto-157001321-1024x1024.jpg" alt="Image">
+                    <p>Swayambhunath stupa-Land in Nepal</p>
+                </div>
+                <div class="image-item">
+                    <img src="./image/istockphoto-467386849-1024x1024.jpg" alt="Image">
+                    <p>Mountains under The Buddtist Temple</p>
+                </div>
+                <div class="image-item">
+                    <img src="./image/istockphoto-814581732-1024x1024.jpg" alt="Image">
+                    <p>All Nepales People walking on the street.</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <button class="btn search-more">Show more</button>
+            <div class="container">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
