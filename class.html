@@ -19,6 +19,58 @@
             background-color: rgb(138, 68, 68);
             /*rgba*/
         }
+
+
+        .flag {
+            width: 200px;
+            height: 150px;
+        }
+
+        .flag .top {
+            height: 50px;
+            width: 200px;
+            background-color: orangered;
+        }
+
+        .flag .middle {
+            height: 50px;
+            width: 200px;
+            background-color: #fff;
+        }
+
+
+        .circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            border: 1px solid black;
+            margin-left: 70px;
+            text-align: center;
+        }
+
+        .line {
+            width: 1px;
+            height: 50px;
+            background-color: #1f0b0b;
+            position: relative;
+            left: 25px;
+        }
+
+        .line::before {
+            width: 1px;
+            height: 50px;
+            background-color: #1f0b0b;
+            content: '';
+            position: absolute;
+            transform: rotate(-7deg);
+        }
+
+
+        .flag .bottom {
+            height: 50px;
+            width: 200px;
+            background-color: green;
+        }
     </style>
 </head>
 
@@ -30,7 +82,7 @@
 
     <p> <a href="#1">Chater-1</a> </p>
     <p class="text1"> hello world</p>
-
+    <div></div>
     <picture>
         <source media="(min-width:640px)" srcset="./photo/poste-de-travail-pc-portable-cafe.jpg" />
         <source media="(min-width:560px)" srcset="./photo/Snapchat-1746657701.jpg" />
@@ -43,13 +95,13 @@
 
 
     <!-- block bitar inline rakhana milxa tarw inline bitar block rakhana mildai na -->
-    <ul type="">
+    <ul type="square">
         <li></li>
         <li></li>
         <li></li>
         <li></li>
     </ul>
-    <ol type="">
+    <ol type="A">
         <li></li>
         <li></li>
         <li></li>
@@ -61,7 +113,16 @@
         <dd>black coffee</dd>
         <dd>milk coffee</dd>
     </dl>
-
+    <div class="flag">
+        <div class="top"></div>
+        <div class="middle">
+            <div class="circle">
+                <div class="line">
+                </div>
+            </div>
+        </div>
+        <div class="bottom"></div>
+    </div>
 
 
     <iframe src="https://en.wikipedia.org/wiki/Flower" width="600px" height="600px"></iframe>
