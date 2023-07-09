@@ -4,20 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Vacancy</title>
+    <title>Bootcamp class</title>
+
+
+
     <link rel="icon" href="./photo/poste-de-travail-pc-portable-cafe.jpg">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
         body {
-            font-family: sans-serif;
-        }
-
-
-        h1 {
-            /*HEX*/
-            color: #1f0b0b;
-            /* rgb*/
-            background-color: rgb(138, 68, 68);
-            /*rgba*/
+            font-family: 'Roboto Condensed', sans-serif;
         }
 
 
@@ -71,6 +67,43 @@
             width: 200px;
             background-color: green;
         }
+
+        .first-container>p {
+            color: red;
+        }
+
+        .first-container+h1 {
+            color: #972222;
+        }
+
+        .first-container~h2 {
+            color: green;
+        }
+
+        .first-container p:first-child {
+            background-color: brown;
+        }
+
+        .tooltip-container {
+            width: 135px;
+            height: 32px;
+            border: none;
+            border-radius: 12px;
+            background-color: #1f0b0b;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            font-size: 20px;
+            align-items: center;
+        }
+
+        .tooltip-text {
+            display: none;
+        }
+
+        .tooltip-container:hover+.tooltip-text {
+            display: block;
+        }
     </style>
 </head>
 
@@ -92,27 +125,24 @@
         <em>exercitationem</em> dignissimos <q>rem pariatur</q> amet dolores repellat commodi eligendi ad, quia <mark>
             quibusdam </mark>optio, delectus quas, <del>rem pariatur</del> voluptate! Tenetur?</p>
 
+    <div class="first-container">
+        <p>lorem 9</p>
+        <section>
+            <p>lorem 9</p>
+        </section>
+        <p>lorem 9</p>
+        <p>lorem 9</p>
+    </div>
+    <h1>tmi </h1>
+    <h2>hjr</h2>
+    <h2>tmroo</h2>
 
+    <p>tmi nai hou</p>
+    <!-- tooltip hover -->
 
-    <!-- block bitar inline rakhana milxa tarw inline bitar block rakhana mildai na -->
-    <ul type="square">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ol type="A">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ol>
-    <dl>
-        <dt>coffee</dt>
-        <dd>cold coffee</dd>
-        <dd>black coffee</dd>
-        <dd>milk coffee</dd>
-    </dl>
+    <div class="tooltip-container">hover me!
+    </div>
+    <p class="tooltip-text">hello mine</p>
     <div class="flag">
         <div class="top"></div>
         <div class="middle">
@@ -125,8 +155,6 @@
     </div>
 
 
-    <iframe src="https://en.wikipedia.org/wiki/Flower" width="600px" height="600px"></iframe>
-
 
     <svg width="300" height="200">
         <polygon points="100,10 40,198 190,78 10,78 160,198"
@@ -134,6 +162,101 @@
         sorry, your browser does not support inline SVG.
     </svg>
     <p id="1">here</p>
+    <!-- ```
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 30px;
+}
+
+.box-model {
+  background-color: black;
+  color: white;
+  border: 5px solid blue;
+  padding: 16px;
+  margin: 16px;
+  width: 30rem;
+  height: 30rem;
+  box-sizing: border-box;
+}
+
+/* about px, rem, em , percentage(%): 
+    1rem=16px;
+    px: fixed measurement(absoulte length)
+    %: relative (accordingt to device width , it changes);
+
+    em: relative to parent
+    eg::after
+    div=> 16px
+    p inside div=> 2em => 2*16= 32px
+    p inside div=> 0.2em=> 0.2 *16=> 3.2px
+
+    body=> 30px
+    div=2em =>(2*30=60)
+    p inside div = 2em (2*60=>120px)
+
+    rem => rem are awlz to relative html 
+    p=> 2rem=> 2*30px
+
+
+*/
+/* html{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+} */
+
+/* width= left+ right(padding + border);
+width= 100px + 5px+ 5px+ 16px+ 16px
+height= top+ bottom
+height= 100px +
+100+10+32=142px */  
+/* selector:
+1.Simple selector: (id, name, class)
+2.Combination Selector : based on relationship
+i. Descendant selector:
+ii.child selector:
+ii. adjacent sibling selector:
+iii. general sibling selector:
+(
+/* // combination selector: */
+
+/* //descendant selector */
+.first-container p {
+  color: red;
+}
+/* // child selector */
+.first-container > p {
+  color: red;
+}
+
+/* //adjacent sibling selector */
+.first-container + h1 {
+  color: blue;
+}
+
+/* //general sibling selector */
+.first-container ~ h1 {
+  color: blue;
+}
+
+/* //pseudo-class selector:
+it define state of an element
+eg: mouse hover,focus element
+link visited & unvisited,
+
+a:link{},
+a:visited{},
+a:active{}
+
+*/
+ */-->
 
 </body>
 
