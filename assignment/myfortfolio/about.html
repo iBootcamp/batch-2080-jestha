@@ -4,9 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <title>About</title>
     <style>
@@ -54,8 +51,14 @@
             margin-left: 20px;
             cursor: pointer;
         }
-.progress{
-margin: 15px;}
+
+        .progress {
+            margin: 15px;
+        }
+
+        .progress-item {
+            display: block;
+        }
     </style>
 </head>
 
@@ -70,20 +73,21 @@ margin: 15px;}
                 laboriosam maiores minus dolore a fugiat ipsam quas alias <br> doloremque quibusdam iure ea explicabo
                 quaerat rem et, error sequi? <br>Aut atque maiores ipsam ex!</p>
             <div class="progress">
-                <div class="progress-bar progress-bar-primary" role="progressbar" style="width:70%">
-                    HTML
+                <div class="progress-item">
+                    <label for="">HTML</label>
+                    <progress value="60" max="100">70%</progress>
                 </div>
-            </div>
-            <div class="progress">
-                <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
-                    CSS
+                <div class="progress-item">
+                    <label for="">CSS</label>
+                    <progress value="30" max="100">50%</progress>
                 </div>
-            </div>
-            <div class="progress">
-                <div class="progress-bar progress-bar-info" role="progressbar" style="width:10%;">
-                    Javascript
+                <div class="progress-item">
+                    <label for="">JavaScript</label>
+                    <progress value="10" max="100">20%</progress>
                 </div>
+
             </div>
+
             <button>READ MORE</button>
         </main>
     </div>
