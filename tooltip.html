@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .tooltip-container button {
+            width: 150px;
+            height: 40px;
+            background: rgb(22, 22, 22);
+            border: none;
+            border-radius: 6px;
+        }
+
+        .tooltip-container button:hover {
+            background-color: rgb(43, 42, 42);
+        }
+
+
+        .tooltip-container button a {
+            color: antiquewhite;
+            text-decoration: none;
+            font-size: 20px;
+
+        }
+
+        .tooltip-item {
+            width: 360px;
+            height: 500px;
+            background: rgb(22, 22, 22);
+            border: 1px solid gray;
+            border-radius: 15px;
+            text-align: left;
+            margin-left: 45%;
+            margin-bottom: 25px;
+            display: none;
+        }
+
+        hr {
+            width: 100%;
+            margin-top: 12px;
+            color: gray;
+        }
+
+        .tooltip-item ul li {
+            display: flex;
+            margin-top: 13px;
+
+        }
+
+        .tooltip-item ul li span {
+            color: rgb(165, 163, 163);
+            font-weight: bold;
+            display: flex;
+            margin-left: 270px;
+        }
+
+
+        .tooltip-item ul li a {
+            text-decoration: none;
+            font-size: 15px;
+            color: rgb(165, 163, 163);
+            margin-left: 12px;
+            margin-top: 4px;
+        }
+
+        .tooltip-item ul li:hover {
+            height: 25px;
+            background-color: rgb(3, 1, 116);
+            border-radius: 5px;
+        }
+
+        .tooltip-container:hover+.tooltip-item {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tooltip-container">
+            <button>
+                <a href="#">Selection</a>
+            </button>
+        </div>
+        <div class="tooltip-item">
+            <ul>
+                <li><a href="#">Selet All</a> <span>></span></li>
+                <li><a href="#">Expand Selection</a></li>
+                <li><a href="#">Shirnk Selection</a></li>
+                <hr>
+                <li><a href="#">Copy Line Up</a></li>
+                <li><a href="#"> Copy Line Down</a></li>
+                <li><a href="#">Move Line Up</a></li>
+                <li><a href="#">Move Line Down</a></li>
+                <li><a href="#">Duplicate Selection</a></li>
+                <hr>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

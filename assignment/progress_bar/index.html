@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cricle-progress_bar">
+            <div class="outer_line">
+                <div class="inner_line">
+                    <p id="number">60%</p>
+                </div>
+            </div>
+        </div>
+        <svg width="180px" height="180px">
+            <defs>
+
+                <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63"></stop>
+                    <stop offset="30%" stop-color="pink"></stop>
+                    <stop offset="100%" stop-color="#673ab7"></stop>
+                </linearGradient>
+            </defs>
+            <circle cx="90" cy="90" r="80" stroke-linecap="round">
+        </svg>
+
+    </div>
+    <div class="container-2">
+        <div class="cricle-progress_bar">
+            <div class="outer_line">
+                <div class="inner_line">
+                    <p id="number">60%</p>
+                </div>
+            </div>
+        </div>
+        <svg width="180px" height="180px">
+            <defs>
+
+                <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63"></stop>
+                    <stop offset="30%" stop-color="pink"></stop>
+                    <stop offset="100%" stop-color="#673ab7"></stop>
+                </linearGradient>
+            </defs>
+            <circle cx="90" cy="90" r="80" stroke-linecap="round">
+        </svg>
+    </div>
+    <script>
+        let number = document.getElementById("number");
+        let counter = 0;
+        setInterval(() => {
+            if (counter == 60) {
+                clearInterval();
+            } else {
+                counter += 1;
+                number.innerHTML = counter + "%";
+            }
+        }, 1);
+    </script>
+</body>
+
+</html>
