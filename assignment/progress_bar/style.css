@@ -8,6 +8,12 @@
 body {
     height: 100vh;
     background: #e3edf7;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    left: 100px;
 }
 
 .cricle-progress_bar {
@@ -36,6 +42,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #number {
@@ -65,7 +72,21 @@ svg {
         stroke-dashoffset: 200;
     }
 }
+
+.container-2 {
+    position: relative;
+    left: 300px;
+}
+
+.container-3 {
+    position: relative;
+    left: 500px;
+}
+/* @media screen and (max-width:667px){
 .container-2{
 position: relative;
-top: 300px;
+right: 200px;
+top: 100px;
 }
+    
+} */
