@@ -2,7 +2,7 @@ const p = document.getElementById("text");
 const button = document.getElementById("button");
 p.textContent = p.textContent.toUpperCase();
 
-(button.onclick = function () {
+button.onclick = function () {
   if (button.textContent == "Click me") {
     p.textContent = "CSS";
     button.textContent = "Another";
@@ -15,12 +15,12 @@ p.textContent = p.textContent.toUpperCase();
     p.textContent = "javascript";
     p.textContent = p.textContent.toUpperCase();
   }
-}),
-  1e3;
+};
+// 1e3;
 
 const age = 12;
 if (age > 12) {
-  console.log("you can play the video game.");
+  // console.log("you can play the video game.");
 } else if (age < 23) {
   console.log("you can play the pubg game.");
 } else if (age < 50) {
@@ -31,7 +31,7 @@ function name(fullName, surName) {
   console.log(`${fullName} ${surName}`);
 }
 
-name("manish", "shrestha");
+// name("manish", "shrestha");
 
 // break line
 
@@ -39,20 +39,28 @@ name("manish", "shrestha");
 
 // Array
 
-const vehicleName = ["cars", "truck", "bus", "motorbike"];
-vehicleName.push("bicycle");
-vehicleName.indexOf("cars"); // print 0
-vehicleName.splice(2, 3); //print cars ,truck
-vehicleName.pop();
+const vehicleName = ["cars", "zeena", "truck", "motorbike", "bus"];
+// vehicleName.push("bicycle"); // add the new item in last position.
+// vehicleName.unshift("bicycle"); // add the new item in first position.
+// vehicleName.indexOf("cars");
+// vehicleName.splice(1, 2); //print cars ,motorbike
+// vehicleName.pop(); // remove the last item.
+// vehicleName.shift(); // remove the first item.
+// vehicleName.filter("bus");
+// vehicleName.join("-");
 
-// console.log(vehicleName);
-// alert(vehicleName);
+// const concat = vehicleName.concat(["gen", "gek"]); // add the another array item.
+// console.log(concat);
+// const sort = vehicleName.sort(); //arranging the alpha alphabetical order
+// vehicleName.reverse(); // reverse the array item.
+console.log(vehicleName);
+
 a = 12;
-b = 3;
+b = 33;
 c = 13;
 if (a < b) {
   console.log("this number is valid.");
-} else if (b < c) {
+} else if (b > c) {
   console.log("b is less then c");
 }
 
@@ -79,9 +87,9 @@ const myObj2 = {
 
 Object.assign(myObj1, myObj2);
 
-console.log(myObj1);
-const colors = new Set();
+// console.log(myObj1);
 
+const colors = new Set();
 colors.add("red");
 colors.add("black");
 colors.add("yellow");
@@ -99,7 +107,7 @@ if (age >= 14 && age < 19) {
   status = "not eligible";
 }
 
-///console.log(status)
+// console.log(status);
 
 switch (new Date().getDay()) {
   case 6:
@@ -136,7 +144,6 @@ var esc = " I don't know. \n what about javascript?";
 //console.log(esc);
 
 const nepaliLanguage = "nepali";
-
 const smallLetter = nepaliLanguage.toLowerCase();
 const capitalLetter = nepaliLanguage.toUpperCase();
 
@@ -148,5 +155,5 @@ const hello = {
   defect: ["seee", "swew", "wedee"],
 };
 
-delete hello.defect;
-console.log(hello);
+// delete hello.defect;
+// console.log(hello);
