@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Services</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .container {
+            text-align: center;
+
+        }
+
+        .container span {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            color: rgb(61, 61, 141);
+            ;
+        }
+
+        .container h1 {
+            font-size: 32px;
+            text-decoration: underline 3px rgb(61, 61, 141);
+        }
+
+        .container p {
+            font-size: 17px;
+            color: darkgray;
+        }
+
+        .cards {
+            display: flex;
+            gap: 30px;
+            font-family: sans-serif;
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+
+        .card-item {
+            width: 310px;
+            height: 420px;
+            background-color: rgb(11, 11, 32);
+            color: rgb(158, 143, 124);
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .card-item i {
+            font-size: 48px;
+            margin-top: 30px;
+            color: rgb(70, 70, 224);
+        }
+
+        button {
+            width: 120px;
+            height: 35px;
+            color: #fff;
+            background: rgb(22, 22, 59);
+            border: none;
+            border-radius: 22px;
+            margin-top: 53px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-left: 85px;
+        }
+
+        @media screen and (max-width:667px) {
+            .container {
+                width: 100%;
+            }
+
+            .cards {
+                display: block;
+                margin-right: 100px;
+            }
+
+            .card-item {
+                margin-top: 20px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <span>WHAT I DO</span>
+        <h1>Services</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur cupiditate ipsam ut! Harum temporibus
+            culpa nobis <br> impedit voluptas velit facere.</p>
+        <div class="cards">
+            <div class="card-item">
+                <i class="bi bi-person-circle"></i>
+                <div class="card-header">
+                    <h3>Web Design</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laboriosam unde.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="card-item">
+                <i class="bi bi-person-circle"></i>
+                <div class="card-header">
+                    <h3>Web Development</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laboriosam unde.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="card-item">
+                <i class="bi bi-person-circle"></i>
+                <div class="card-header">
+                    <h3>App Development</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laboriosam unde.</p>
+                <button>READ MORE</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
