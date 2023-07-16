@@ -18,6 +18,15 @@ button.onclick = function () {
 };
 // 1e3;
 
+// const audio = document.getElementById("audio");
+// const play = document.getElementById("play");
+
+// play.onclick = function () {
+//   if (play.textContent == "play") {
+    
+  // }
+// };
+
 const age = 12;
 if (age > 12) {
   // console.log("you can play the video game.");
