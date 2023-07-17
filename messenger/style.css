@@ -11,7 +11,7 @@ body {
 
 .container {
     width: 380px;
-    height: 580px;
+    height: 800px;
     background-color: black;
     color: #fff;
     margin-left: 30%;
@@ -37,6 +37,7 @@ nav {
 }
 
 .left-side a {
+    position: relative;
     color: #fff;
     font-size: 20px;
 }
@@ -52,6 +53,20 @@ nav {
 
 .left-side p {
     font-size: 24px;
+}
+
+.menu span {
+    position: fixed;
+    color: #fff;
+    background-color: red;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    top: 10px;
+    font-size: 12px;
+    right: 66.5%;
+    text-align: center;
+    border: 2px solid rgb(15, 15, 15);
 }
 
 .right-side ul {
