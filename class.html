@@ -31,7 +31,7 @@
 
         .back-img {
             width: 700px;
-            opacity: 0.4;
+            opacity: 0.5;
         }
 
         .first_img {
@@ -66,40 +66,48 @@
         section {
             display: flex;
             width: 800px;
-            height: 200px;
+            height: 450px;
+            margin: 30px;
             border-radius: 6px;
-            border: 1px solid red;
+            justify-content: space-around;
+            border: 1px solid rgb(150, 78, 78);
+            background-image: linear-gradient(red, blue, green);
         }
 
-        section div {
-            width: 80px;
+        section .box1,
+        .box2,
+        .box3 {
+            width: 230px;
             border-radius: 4px;
+            margin: 22px;
             border: 1px solid grey;
-            height: 80px;
+            height: 400px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        .box1 {
-            order: 1;
-            flex-grow: 3;
-            align-self: flex-end;
-        }
 
-        .box10 {
-            flex-grow: 2;
-            flex-shrink: 13;
-            align-self: flex-end;
-        }
-
-        aside {
+        .box2 {
             display: flex;
-            width: 500px;
-            border: 1px solid rebeccapurple;
-            flex-wrap: wrap;
-            margin: 40px;
+            flex-direction: column;
+            justify-content: space-around;
         }
+
+        .box2 div {
+            width: 200px;
+            background-color: black;
+            color: white;
+            height: 80px;
+            border: 1px solid snow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /*  flex-grow: 1;*/
+            font-size: 12px;
+        }
+
     </style>
 </head>
 
@@ -140,23 +148,21 @@
     </div>
 
     <section>
-        <div class="box1">box1</div>
-        <div class="box2">box2</div>
-        <div class="box3">box3</div>
-        <div class="box4">box4</div>
-        <div class="box5">box5</div>
-        <div class="box6">box6</div>
-        <div class="box7">box7</div>
-        <div class="box8">box8</div>
-        <div class="box9">box9</div>
-        <div class="box10">box10</div>
+        <div class="box1"><img src="./image-search/image/images (4).jpg" alt="Photo of beautiful girl" width="100%">
+        </div>
+        <div class="box2">
+            <div class="box4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda veniam repudiandae
+                deleniti, doloremque pariatur cum ut sunt. Culpa, provident dicta.</div>
+            <div class="box5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore esse exercitationem atque
+                nisi! Eos nesciunt deleniti omnis est eum obcaecati.</div>
+            <div class="box6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ex ad odit assumenda
+                molestias hic placeat dignissimos repellat, sequi quos!</div>
+        </div>
+        <div class="box3">
+            <img src="./image-search/image/istockphoto-467386849-1024x1024.jpg" alt="image of mountian" width="100%">
+        </div>
+
     </section>
-
-    <aside>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, consequuntur quibusdam quae minus vero
-            accusamus sunt iste animi. Vero totam vel est culpa quisquam rerum? Eaque quos ducimus sequi repellat.</p>
-    </aside>
-
     <!-- for graphics svg -->
     <!-- 
     <svg width="300" height="200">
@@ -164,6 +170,7 @@
             style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
         sorry, your browser does not support inline SVG.
     </svg> -->
+            
 
 
     <p id="1"></p>
