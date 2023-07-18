@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .first-navbar {
@@ -94,9 +95,8 @@ body {
     text-align: right;
     line-height: 1.2em;
     height: 65px;
+position: sticky;
     width: 100vw;
-    /* position: fixed;
-    top: 0; */
 }
 
 .second-navbar ul {
