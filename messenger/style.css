@@ -56,7 +56,7 @@ nav {
 }
 
 .menu span {
-    position: fixed;
+    position: absolute;
     color: #fff;
     background-color: red;
     border-radius: 50%;
@@ -162,4 +162,11 @@ nav {
 
 .people-list-item div span {
     margin-left: 12px;
+}
+
+.people-list-item input {
+    margin-left: 50px;
+    position: absolute;
+    left: 711px;
+bottom: 167px;
 }
