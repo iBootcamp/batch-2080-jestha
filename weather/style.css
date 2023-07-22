@@ -14,7 +14,8 @@ body {
 
 }
 
-.circle {
+.circle,
+.circle2 {
     width: 220px;
     height: 220px;
     color: #fff;
@@ -30,7 +31,7 @@ body {
 .weather-items i {
     font-size: 1.5rem;
     color: #ffffff;
-   
+
 }
 
 .degree p {
@@ -46,4 +47,24 @@ body {
 .city-name {
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.circle2 {
+    display: flex;
+    width: 220px;
+    height: 220px;
+    color: #fff;
+    border: 1px solid #f3f1f1;
+    box-shadow: 1px 1px 1px 1px#cccbcb;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+position: relative;
+}
+
+.circle:hover+.circle2 {
+    display: block;
+position: absolute;
+top: 29px;
 }
