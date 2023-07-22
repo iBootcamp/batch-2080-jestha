@@ -63,8 +63,6 @@ h1 {
     margin-top: 7px;
 }
 
-
-
 .heading-1 {
     text-align: right;
 }
@@ -84,16 +82,23 @@ h1 {
     margin-top: 20px;
 }
 
-
 aside {
     margin-left: 50px;
     margin-top: 165px;
 }
 
-.left {
+aside h2 {
+    font-size: 15px;
+    margin-left: 23px;
+}
 
+.left {
     margin-top: 40px;
     margin-left: -80px;
+}
+
+.left>p {
+    color: #a0a0a0;
 }
 
 .left h3 {
@@ -118,6 +123,7 @@ aside {
     right: 110px;
 }
 
+
 .container {
     display: flex;
     line-height: 20px;
@@ -128,6 +134,8 @@ aside {
     border: 1px solid rgb(12, 12, 12);
     border-radius: 12px;
     margin: 22px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .container .side-image {
@@ -145,14 +153,6 @@ aside {
     width: 20px;
     height: 20px;
 }
-
-
-h2 {
-    font-size: 17px;
-    letter-spacing: 1px;
-    margin: 22px;
-}
-
 
 .container-last {
     background-color: #161616;
