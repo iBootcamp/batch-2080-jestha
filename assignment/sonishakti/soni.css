@@ -1,8 +1,11 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    background-color: #000;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
     color: #fff;
     font-family: sans-serif;
     overflow-x: hidden;
@@ -10,17 +13,24 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
-    gap: 530px;
+    justify-content: space-between;
 }
 
 nav a {
     color: #fff;
     letter-spacing: 1px;
-    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
+}
 
+nav .left-side {
+    margin-left: 110px;
+    font-size: 14px;
+}
+
+nav .right-side {
+    font-size: 14px;
+    margin-right: 110px;
 }
 
 section {
@@ -54,12 +64,14 @@ h1 {
 }
 
 
+
 .heading-1 {
     text-align: right;
 }
 
 .heading-2 {
     text-align: left;
+    margin-top: 170px;
 }
 
 .left-side {
@@ -75,6 +87,7 @@ h1 {
 
 aside {
     margin-left: 50px;
+    margin-top: 165px;
 }
 
 .left {
@@ -83,25 +96,26 @@ aside {
     margin-left: -80px;
 }
 
-.left p {
-    color: #a0a0a0;
-}
-
 .left h3 {
     font-size: 24px;
     font-weight: 700;
-    height: 1.4;
+    margin-top: 25px;
 }
 
-.left button,
-i {
-    margin-top: 180px;
+.left .view-project {
+    position: relative;
     cursor: pointer;
-    background-color: transparent;
     color: #fff;
-    border: none;
+    top: 200px;
+    margin-left: 12px;
     font-size: 14px;
     text-transform: uppercase;
+}
+
+.left div .lock-img {
+    position: absolute;
+    bottom: -4px;
+    right: 110px;
 }
 
 .container {
@@ -111,16 +125,25 @@ i {
     width: 1200px;
     height: 390px;
     justify-content: space-around;
-    border: none;
+    border: 1px solid rgb(12, 12, 12);
     border-radius: 12px;
     margin: 22px;
 }
 
-.container img {
+.container .side-image {
+    height: 390px;
+}
+
+.container .side-image img {
     position: relative;
-    left: 127px;
-    height: 389px;
-    overflow: none;
+    left: 140px;
+    height: 100%;
+    width: 600px;
+}
+
+.container .image-68 {
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -138,7 +161,7 @@ h2 {
     border: none;
     border-radius: 12px;
     margin: 12px;
-    padding-top: 25px;
+    padding-top: 35px;
     margin-left: 22px;
 }
 
@@ -151,16 +174,16 @@ h2 {
 
 .container-last p {
     margin-left: 70px;
-    line-height: 0;
+    line-height: 3;
     letter-spacing: 1px;
     color: #a0a0a0;
 }
 
-.container-last div {
+.container-last .icon {
     display: flex;
-    gap: 23px;
+    gap: 26px;
     margin-left: 70px;
-    margin-top: -145px;
+    margin-top: 30px;
 }
 
 .container-last i {
@@ -170,7 +193,7 @@ h2 {
 }
 
 footer {
-    background-color: rgb(12, 11, 11);
+    background-color: #070707f1;
     text-align: center;
     height: 200px;
     display: flex;
@@ -182,24 +205,46 @@ footer {
 
 footer p {
     font-family: sans-serif;
-    padding-bottom: 10px;
-    margin-bottom: 12px;
+    font-size: 15px;
 }
 
 footer div {
     gap: 23px;
-    margin-top: -160px;
+    margin-top: 25px;
     display: flex;
 }
 
 footer div i {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 400;
     opacity: 1;
 }
 
-/* 
-.video {
-    height: 390px;
-    width: 611px;
-} */
+@media screen and (max-width:393px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    nav .right-side {
+        display: none;
+    }
+
+    section p {
+        font-size: 16px;
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .heading {
+        margin-top: 80px;
+        font-size: 20px;
+    }
+
+    .heading-2 {
+        display: flex;
+        position: absolute;
+        top: -90px;
+    }
+
+}
