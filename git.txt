@@ -36,6 +36,8 @@ git bash commands
 - ifconfig
 - git clean
 - git push -u origin silver => for local to the gi cloud push.
+- git checkout -- . =>revert the changes
+- git clean -fd => remove untrack files and folder.
 
 !-- Advantages of git -->
 
