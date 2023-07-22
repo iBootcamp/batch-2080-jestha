@@ -120,16 +120,26 @@
                         loading="lazy" alt="This project requires a password to view." class="image-68">
                 </div>
             </div>
-            <div class="input-data">
-                <input type="password" name="password" id="password" placeholder="Enter your password">
-            </div>
-            <div class="submit-button">
-                <input type="submit" value="SUBMIT">
-            </div>
+            <form action="./action" method="get" accesskey="">
+                <div class="input-data">
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                </div>
+                <div class="submit-button">
+                    <input type="submit" value="SUBMIT" id="submit">
+                </div>
+            </form>
         </div>
     </div>
     <script>
-        const input = document.getElementById("password");
+        const submit = document.getElementById("submit");
+
+        function checkPassword() {
+            const password = document.getElementById("password").value;
+        };
+        submit.onclick = function () {
+        }
+            const error = "password is not valid";
+        alert(error);
     </script>
 
 </body>

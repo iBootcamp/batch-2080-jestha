@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
+    <link rel="icon"
+        href="https://cdn5.vectorstock.com/i/1000x1000/96/64/initial-ss-ss-letter-logo-design-template-vector-38289664.jpg">
     <style>
         * {
             margin: 0;
@@ -13,14 +15,144 @@
         }
 
         body {
-            background-color: rgb(20, 20, 20);
+            background-color: black;
             color: #fff;
+            font-family: sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            color: #fff;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        nav .left-side {
+            margin-left: 110px;
+            font-size: 14px;
+        }
+
+        nav .right-side {
+            font-size: 15px;
+            margin-right: 110px;
+        }
+
+        .left-side {
+            margin-top: 20px;
+            margin-left: 110px;
+            font-size: 14px;
+
+        }
+
+        .right-side {
+            display: flex;
+            gap: 35px;
+            margin-top: 20px;
+            font-size: 15px;
+            margin-right: 110px;
+        }
+
+        .right-side .about {
+            color: blue;
+        }
+
+        main {
+            margin: 105px;
+        }
+
+        section {
+            margin: 43px;
+        }
+
+        section p {
+            font-size: 23px;
+            color: gray;
+        }
+
+        section h1 {
+            font-size: 70px;
+            margin-top: 22px;
+            font-family: serif;
+
+        }
+
+        hr {
+            margin-top: 70px;
+            color: gray;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            margin: 12px;
+        }
+
+        article h2 {
+            font-size: 70px;
+            font-family: serif;
+        }
+
+        p {
+            width: 380px;
+            line-height: 1.3;
+            font-size: 20px;
+            color: antiquewhite;
         }
     </style>
 </head>
 
 <body>
-    hello about
+    <header>
+        <nav>
+            <div class="left-side">
+                <a href="#">shakti soni</a>
+            </div>
+            <div class="right-side">
+                <a href="./about.html" class="about">about</a>
+                <a href="./index.html">Work</a>
+                <a href="#">Résumé</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Works I do include</p>
+            <h1>UX Design <br>
+                UI Design <br>
+                Interaction.</h1>
+        </section>
+        <hr>
+        <article>
+            <div>
+                <h2>Essence</h2>
+            </div>
+            <div>
+                <p>
+                    As a "human-first" product designer, my core belief is to solve problems by applying design thinking
+                    and balancing the needs of the user with the needs of the business. I have a proven track record of
+                    successfully utilizing various design tools and methodologies such as user research, usability
+                    testing and visual design to create solutions that deliver both functional excellence and aesthetic
+                    appeal, all while meeting business objectives. <br>
+                    <br>
+                    I am a proactive communicator with a strong ability to work in cross-functional teams. I bring a
+                    positive attitude, growth mindset, and a collaborative approach to my work.
+                    I seek ways to support my team and make sure our project is a success.
+                    ‍<br>
+                    <br>
+                    In my free time, I enjoy spending time with my wife who is my inspiration for wit and generally the
+                    sans to my serif. I also enjoy watching Wes Anderson movies, reading non-fiction literature and
+                    trying to conquer Andy Frisella’s 75 Hard list ( more like failing at 75% of the items ).
+                </p>
+            </div>
+        </article>
+        <hr>
+    </main>
+
 </body>
 
 </html>
