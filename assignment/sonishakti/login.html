@@ -120,26 +120,33 @@
                         loading="lazy" alt="This project requires a password to view." class="image-68">
                 </div>
             </div>
-            <form action="./action" method="get" accesskey="">
+            <form method="get">
                 <div class="input-data">
                     <input type="password" name="password" id="password" placeholder="Enter your password">
                 </div>
                 <div class="submit-button">
-                    <input type="submit" value="SUBMIT" id="submit">
+                    <input type="submit" value="SUBMIT" id="submit" onclick="passwordMatch()">
                 </div>
             </form>
         </div>
     </div>
     <script>
-        const submit = document.getElementById("submit");
-
-        function checkPassword() {
-            const password = document.getElementById("password").value;
+        function passwordMatch() {
+            const passwordInput = document.querySelector("#password").value;
+            if (passwordInput === "2022") {
+                window.open("./about.html", "_blank");
+            } else {
+                alert("Incorrect password. please try again.");
+            };
         };
-        submit.onclick = function () {
-        }
-            const error = "password is not valid";
-        alert(error);
+        /* function passwordMatch() {
+            const passwordInput = document.querySelector("#password").value;
+            if (passwordInput !== "2022") {
+                alert("Incorrect password. please try again.");
+            } else {
+                window.open("./about.html", "_parent");
+            };
+        };*/
     </script>
 
 </body>
