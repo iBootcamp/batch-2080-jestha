@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>About</title>
     <link rel="icon"
         href="https://cdn5.vectorstock.com/i/1000x1000/96/64/initial-ss-ss-letter-logo-design-template-vector-38289664.jpg">
@@ -61,47 +62,229 @@
             color: blue;
         }
 
+        nav .menu-icon {
+            font-size: 30px;
+            display: none;
+        }
+
         main {
-            margin: 105px;
+            margin: 200px;
         }
 
         section {
-            margin: 43px;
+            display: flex;
+            flex-direction: column;
         }
 
         section p {
             font-size: 23px;
             color: gray;
+            margin-top: 22px;
         }
 
         section h1 {
             font-size: 70px;
-            margin-top: 22px;
             font-family: serif;
 
         }
 
         hr {
-            margin-top: 70px;
-            color: gray;
+            margin-top: 20px;
         }
 
         article {
             display: flex;
             justify-content: space-between;
             margin: 12px;
+            margin-top: 70px;
         }
 
         article h2 {
-            font-size: 70px;
+            font-size: 60px;
             font-family: serif;
         }
 
-        p {
+        article p {
             width: 380px;
             line-height: 1.3;
             font-size: 20px;
-            color: antiquewhite;
+            color: #bbb;
+        }
+
+        aside {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 70px;
+        }
+
+        aside h2 {
+            font-size: 60px;
+            font-family: serif;
+        }
+
+        aside .right-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        aside .right-content div {
+            margin-top: 60px;
+            margin-bottom: 0px;
+        }
+
+        aside .right-content div p {
+            font-size: 20px;
+            line-height: 2.5;
+        }
+
+        aside .right-content div span {
+            color: #bbb;
+            font-size: 19px;
+        }
+
+        .awards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 70px;
+        }
+
+        .awards h2 {
+            font-size: 60px;
+            font-family: serif;
+        }
+
+        .awards .right-content div {
+            margin-top: 80px;
+            margin-bottom: 100px;
+        }
+
+        .awards .right-content div p {
+            font-size: 20px;
+            line-height: 2.5;
+        }
+
+        .awards .right-content div span {
+            color: #bbb;
+            font-size: 19px;
+        }
+
+
+        .address {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 70px;
+        }
+
+        .address h2 {
+            font-size: 60px;
+            font-family: serif;
+        }
+
+        .address .right-content div {
+            margin-top: 50px;
+            margin-bottom: 130px;
+
+        }
+
+        .address .right-content div p {
+            font-size: 20px;
+            line-height: 2.5;
+        }
+
+        .address .right-content div span {
+            color: #bbb;
+            font-size: 19px;
+        }
+
+        .education {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+        .education h2 {
+            font-size: 60px;
+            font-family: serif;
+        }
+
+
+        .education .right-content div p {
+            font-size: 20px;
+            line-height: 2.5;
+        }
+
+        .education .right-content div span {
+            color: #bbb;
+            font-size: 19px;
+
+        }
+
+        footer {
+            background-color: #070707f1;
+            text-align: center;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 110px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer p {
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+
+        footer .icon {
+            gap: 23px;
+            margin-top: 25px;
+            display: flex;
+        }
+
+        footer .icon div {
+            width: 25px;
+            height: 25px;
+            border: 2.5px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        footer div i {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        @media screen and (max-width:393px) {
+
+            main {
+                margin: 10px;
+            }
+
+            section h1 {
+                font-size: 40px;
+            }
+
+            nav .right-side {
+                display: none;
+            }
+
+            nav .menu-icon {
+                font-size: 30px;
+                display: inline;
+            }
+
+            article,
+            .address,
+            aside,
+            .awards,
+            .education {
+                display: inline-block;
+            }
+
         }
     </style>
 </head>
@@ -117,6 +300,9 @@
                 <a href="./index.html">Work</a>
                 <a href="#">Résumé</a>
             </div>
+            <div class="menu-icon">
+                <i class="bi bi-list"></i>
+            </div>
         </nav>
     </header>
     <main>
@@ -128,15 +314,16 @@
         </section>
         <hr>
         <article>
-            <div>
-                <h2>Essence</h2>
-            </div>
+            <h2>Essence</h2>
             <div>
                 <p>
-                    As a "human-first" product designer, my core belief is to solve problems by applying design thinking
-                    and balancing the needs of the user with the needs of the business. I have a proven track record of
+                    As a "human-first" product designer, my core belief is to solve problems by applying design
+                    thinking
+                    and balancing the needs of the user with the needs of the business. I have a proven track record
+                    of
                     successfully utilizing various design tools and methodologies such as user research, usability
-                    testing and visual design to create solutions that deliver both functional excellence and aesthetic
+                    testing and visual design to create solutions that deliver both functional excellence and
+                    aesthetic
                     appeal, all while meeting business objectives. <br>
                     <br>
                     I am a proactive communicator with a strong ability to work in cross-functional teams. I bring a
@@ -144,15 +331,99 @@
                     I seek ways to support my team and make sure our project is a success.
                     <br>
                     <br>
-                    In my free time, I enjoy spending time with my wife who is my inspiration for wit and generally the
+                    In my free time, I enjoy spending time with my wife who is my inspiration for wit and generally
+                    the
                     sans to my serif. I also enjoy watching Wes Anderson movies, reading non-fiction literature and
                     trying to conquer Andy Frisella’s 75 Hard list ( more like failing at 75% of the items ).
                 </p>
             </div>
         </article>
         <hr>
-    </main>
+        <aside>
+            <h2>Experience</h2>
+            <div class="right-content">
+                <div>
+                    <p> <strong>Agora.io</strong> </p>
+                    <span>Sr Product Designer</span>
+                </div>
+                <div>
+                    <p><strong>Amdocs</strong></p>
+                    <span>Interactive Desiger</span>
+                </div>
+                <div>
+                    <p><strong>YUJ Design</strong></p>
+                    <span>Sr Visual Desiger</span>
+                </div>
+                <div>
+                    <p><strong>Dreamworks Animation, Technicolor</strong></p>
+                    <span>Jr Lighting Artist</span>
+                </div>
+            </div>
+        </aside>
+        <hr>
+        <div class="awards">
+            <h2>Awards</h2>
+            <div class="right-content">
+                <div>
+                    <p> <strong>Best Animated Feature</strong></p>
+                    <span>Academy Awards, Boss Baby(2017)</span>
+                </div>
+                <div>
+                    <p><strong> Best Animation Movie</strong> </p>
+                    <span>NFFTY, Metanoia(2015)</span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="education">
+            <h2>
+                Eduction
+            </h2>
+            <div class="right-content">
+                <div>
 
+                    <p><strong>Master in Digital Direction</strong></p>
+                    <span>DSK International Campus <br> (Rubika,France)</span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="address">
+            <h2>Contact</h2>
+            <div class="right-content">
+                <div>
+                    <p><strong>Email</strong></p>
+                    <span>soni28shakti@gmail.com</span>
+                </div>
+                <div>
+                    <p><strong>Social</strong></p>
+                    <span>Behance Dribble Linked In</span>
+                </div>
+                <div>
+                    <p> <strong>Location</strong></p>
+                    <span>Working remotely under the warm sun <br> of Pune,India.</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>SHAKTI SONI</p>
+        <div class="icon">
+            <div>
+                <i title="attherate">@</i>
+            </div>
+
+            <div>
+                <i title="linkedin" class="bi bi-linkedin"></i>
+            </div>
+            <div>
+                <i title="telegram" class="bi bi-telegram"></i>
+            </div>
+            <div>
+                <i title="discord" class="bi bi-discord"></i>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

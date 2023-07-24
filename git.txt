@@ -37,7 +37,7 @@ git bash commands
 - git clean
 - git push -u origin silver => for local to the gi cloud push.
 - git checkout -- . =>revert the changes
-- git clean -fd => remove untrack files and folder.
+- git clean -fd => remove untrack files and folder/directory.
 
 !-- Advantages of git -->
 
