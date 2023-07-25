@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <path d="M10.25,0 L11.75,0 C13.4068542,-3.04359188e-16 14.75,1.34314575 14.75,3 L14.75,19 C14.75,20.6568542 13.4068542,22 11.75,22 L10.25,22 C8.59314575,22 7.25,20.6568542 7.25,19 L7.25,3 C7.25,1.34314575 8.59314575,3.04359188e-16 10.25,0 Z" id="path-1"></path>
+        <filter x="-93.3%" y="-22.7%" width="286.7%" height="163.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="7.25" y="0" width="7.5" height="22" rx="3"></rect>
+        <filter x="-93.3%" y="-22.7%" width="286.7%" height="163.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Web-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICE" transform="translate(-134.000000, -406.000000)">
+            <g id="Group-10" transform="translate(134.000000, 406.000000)">
+                <g id="Icon" fill="#DA1844" fill-rule="nonzero">
+                    <g id="Group">
+                        <path d="M48,23.9999222 C48,37.2548989 37.2548379,48 24.0000973,48 C10.745201,48 0,37.2548989 0,23.9999222 C0,10.74514 10.745201,0 24.0000973,0 C37.2548379,0 48,10.74514 48,23.9999222 Z" id="Path"></path>
+                    </g>
+                </g>
+                <g id="Group-6" transform="translate(13.000000, 13.000000)">
+                    <g id="Rectangle" transform="translate(11.000000, 11.000000) rotate(90.000000) translate(-11.000000, -11.000000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
