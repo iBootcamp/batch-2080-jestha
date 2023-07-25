@@ -122,7 +122,7 @@
             </div>
             <form method="get">
                 <div class="input-data">
-                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                    <input  type="password" name="password" id="password" placeholder="Enter your password">
                 </div>
                 <div class="submit-button">
                     <input type="submit" value="SUBMIT" id="submit" onclick="passwordMatch()">
@@ -134,7 +134,7 @@
         function passwordMatch() {
             const passwordInput = document.querySelector("#password").value;
             if (passwordInput === "2022") {
-                window.open("./about.html", "_blank");
+                window.open("./Emergency/index.html" ,"_blank");
             } else {
                 alert("Incorrect password. please try again.");
             };
