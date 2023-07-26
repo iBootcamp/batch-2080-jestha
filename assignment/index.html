@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Image Maps</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #52d44e;
+        }
+
+        h1 a {
+            text-decoration: underline;
+            color: black;
+        }
+
+        nav {
+            display: flex;
+            gap: 50rem;
+        }
+
+        i {
+            font-size: 26px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .bi-search {
+            position: relative;
+            font-size: 20px;
+            top: 5px;
+        }
+
+        .image-map {
+            margin: 6px 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> <a href="#">Image Maps </a></h1>
+        <nav>
+            <div class="nav-link">
+                <b><a href="#">Home</a></b>
+                <a href="#">Contact</a>
+                <a href="#">Service</a>
+                <a href="#">Bootcamp</a>
+            </div>
+            <div>
+                <span><i class="bi bi-search"></i></span>
+                <input type="email" name="email" placeholder="Enter your email">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="image-map">
+            <img src="../photo/group.jpg" alt="group of people" usemap="#people">
+            <map name="people">
+                <area title="google" shape="circle" coords="359,169,39" href="https://google.com" target="_blank">
+                <area title="Github" shape="circle" coords="268,264,48" href="https://github.com" target="_blank">
+                <area title="youtube" shape="circle" coords="448,96,56" href="https://youtube.com" target="_blank">
+            </map>
+            <img src="../photo/poste-de-travail-pc-portable-cafe.jpg" usemap="#computer" alt="computer">
+            <map name="computer">
+                <area title="git.txt" shape="rect" coords="177,49,424,200" href="../git.txt" target="_blank">
+                <area title="ssh.txt" shape="circle" coords="511,314,22" href="../ssh.txt" target="_blank">
+                <area title="image-map" shape="poly" coords="83,204,112,351,169,239" href="https://www.image-map.net/"
+                    target="_blank">
+                <area title="W3schools" shape="rect" coords="452,187,502,266" href="https://www.w3schools.com/html/"
+                    target="_blank" onclick="myFunction()">
+            </map>
+        </div>
+        <div>
+            <blockquote>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores beatae harum accusamus quaerat
+                molestiae, sint sunt maxime, consequuntur soluta quidem nobis. Velit consequatur sequi itaque fugit
+                dolores vel cupiditate praesentium unde, accusantium quae repudiandae ipsam minus laboriosam enim
+                commodi illum nulla tempora repellat quis molestiae doloribus quibusdam consectetur. Iste error porro
+                labore repellendus recusandae repellat explicabo corrupti doloribus aut unde eum nobis quibusdam optio a
+                animi totam eaque, voluptate quae vel voluptatum fugiat voluptas? Possimus aperiam, esse iste deserunt
+                accusantium fuga incidunt est provident, repellendus voluptas tempora doloremque animi, sunt aliquid
+                similique itaque soluta nobis? Aperiam ut porro enim est.
+            </blockquote>
+        </div>
+        <button>Sign in Free</button>
+        <button>
+            <a href="https://www.image-map.net/">image-map.net</a>
+        </button>
+    </main>
+    <footer>
+        <p> <b> Contact:9874630221</b>
+            <span>Email:dsam324@gmail.com</span>
+        </p>
+        <div>
+            <i title="linkedin" class="bi bi-linkedin"></i>
+            <i title="facebook" class="bi bi-facebook"></i>
+            <i title="github" class="bi bi-github"></i>
+            <i title="instagram" class="bi bi-instagram"></i>
+            <i title="whatsapp" class="bi bi-whatsapp"></i>
+        </div>
+    </footer>
+    <script>
+        function myFunction() {
+            alert('you clicked the phone! Again click the okay button and you goes the w3schools page.');
+        };
+    </script>
+</body>
+
+</html>

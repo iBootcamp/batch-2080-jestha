@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Document</title>
+<link rel="shortcut icon" href="https://www.svgrepo.com/show/415823/contact-form-email.svg" type="">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-logo">
+            <i class="bi bi-person-circle"></i>
+        </div>
+        <div class="form-header">
+            Sign In
+        </div>
+        <p>Please login to use plateform</p>
+        <form action="/action.php" method="get" autocomplete="on">
+            <fieldset>
+                <div class="form-item-1">
+                    <label for="email"></label>
+                    <span><i class="bi bi-envelope-at"></i></span>
+                    <input type="email" name="email" class="email" placeholder="Enter email">
+                </div>
+                <div class="form-item-2">
+                    <label for="password"></label>
+                    <span><i class="bi bi-lock"></i></span>
+                    <input type="password" name="password" placeholder="Enter password">
+                </div>
+                <div class="form-item-other">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox">
+                        <label for="checkbox">Remember Me</label>
+                    </div>
+                    <a href="#">I forget my password</a>
+                </div>
+                <div class="click-button">
+
+                    <input type="reset" value="Reset" name="reset">
+                    <input type="submit" value="Log In" name="submit">
+                </div>
+            </fieldset>
+        </form>
+        <div class="login-card-footer">
+            Don't have an account? <a href="#Create a free account">Create a free account.</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

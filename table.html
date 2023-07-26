@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignment of table</title>
+    <style>
+        table {
+            cursor: zoom-in;
+            margin: auto;
+            background-color: hsl(0, 0%, 90%);
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2"  rowspan="3">Day</th>
+                <th colspan="6">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">schedule</th>
+                <th rowspan="2" colspan="4">Topic </th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" rowspan="2">Monday</td>
+                <td rowspan="2">8:00am</td>
+                <td rowspan="2">5:00pm</td>
+                <td>introduction</td>
+            </tr>
+            <tr>
+                <td>Validity:DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="3">Tuesday</td>
+                <td>8:00am</td>
+                <td>11:00pm</td>
+                <td rowspan="2">xpath</td>
+            </tr>
+            <tr>
+                <td>11:00am</td>
+                <td>2:00pm</td>
+            </tr>
+            <tr>
+                <td>2:00pm</td>
+                <td>5:00pm</td>
+                <td>XSL Transfprmations</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">Wednesday</td>
+                <td rowspan="2">8:00am</td>
+                <td rowspan="2">12:00pm</td>
+                <td rowspan="2">XSL Formatting Objects</td>
+            </tr>
+        </tbody>
+    </table>      
+</body>
+
+</html>

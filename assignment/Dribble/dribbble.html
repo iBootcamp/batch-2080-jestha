@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribbble</title>
+    <link rel="icon" href="https://cdn.freebiesupply.com/logos/large/2x/dribbble-icon-1-logo-png-transparent.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        .first-navbar {
+            display: flex;
+            gap: 430px;
+            height: 105px;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .left-navbar ul {
+            display: flex;
+            gap: 30px;
+        }
+
+        .left-navbar ul li {
+            display: flex;
+            margin-top: 65px;
+        }
+
+        .left-navbar ul li a {
+            text-decoration: none;
+            color: rgb(52, 51, 61);
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .left-navbar ul li a:hover {
+            color: #5e5c5e;
+        }
+
+        .left-navbar img {
+            position: relative;
+            bottom: 31px;
+
+        }
+
+        .right-navbar ul {
+            display: flex;
+            gap: 25px;
+        }
+
+        .right-navbar ul li {
+            display: flex;
+        }
+
+        .right-navbar a {
+            text-decoration: none;
+        }
+
+
+
+        .right-navbar .log-in {
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 12px;
+            color: rgb(26, 25, 25);
+
+        }
+
+        .right-navbar .sign-up {
+            width: 75px;
+            height: 42px;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: aliceblue;
+            background-color: rgb(22, 21, 21);
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .right-navbar .sign-up:hover {
+            background: #413d41;
+        }
+
+        .left-navbar .go {
+            color: rgb(221, 97, 138);
+        }
+
+        main {
+            text-align: center;
+            background-image: linear-gradient(rgb(228, 66, 66), rgb(5, 5, 82));
+            height: 100vh;
+        }
+
+        .button-list button {
+            width: 135px;
+            height: 47px;
+            border: none;
+            font-size: 18px;
+            color: #fff;
+            background-color: rgb(16, 16, 39);
+            border-radius: 22px;
+            margin-top: 55px;
+            cursor: pointer;
+        }
+
+        .button-list button:hover {
+            border: 1px solid rgb(233, 101, 200);
+            background-color: transparent;
+        }
+
+        section h1 {
+            color: #fff;
+            font-size: 32px;
+            margin-top: 40px;
+        }
+
+        section p {
+            color: #fff;
+            font-size: 17px;
+        }
+
+        section input {
+            width: 500px;
+            height: 55px;
+            border-radius: 32px;
+            border: none;
+            background-color: #f8f3f3;
+            margin-top: 80px;
+
+        }
+
+
+        ::-webkit-input-placeholder {
+            /* Edge */
+            position: relative;
+            left: 30px;
+            font-size: 15px;
+        }
+
+        .button-last {
+
+            margin-top: 52px;
+        }
+
+        .button-last button {
+            width: 120px;
+            height: 32px;
+            border: 1px solid;
+            background: transparent;
+            font-size: 16px;
+            border-radius: 22px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="first-navbar">
+            <div class="left-navbar">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="https://logowik.com/content/uploads/images/dribbble.jpg"
+                                alt=" Image of dribble logo" width="110px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Find talent</a>
+                    </li>
+                    <li>
+                        <a href="#">For designers</a>
+                    </li>
+                    <li>
+                        <a href="#">Inspiration</a>
+                    </li>
+                    <li>
+                        <a href="#">Learn design</a>
+                    </li>
+                    <li>
+                        <a href class="go">Go Pro</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-navbar">
+                <ul>
+                    <li>
+                        <a href="../assignment/form.html" class="log-in">Log in</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sign-up">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- <video src="../../photo/49dbf46eae15d227fc95a69cee31251e.mp4" controls muted autoplay></video> -->
+    <main>
+        <div class="button-list">
+            <button>Discover</button>
+            <button>Animation</button>
+            <button>Branding</button>
+            <button>illustration</button>
+            <button>Mobile</button>
+            <button>Print</button>
+            <button>Product</button>
+            <button>Ttpography</button>
+            <button>Web Design</button>
+        </div>
+        <section>
+            <h1>Explore the world’s leading <br>design portfolios</h1>
+            <p>
+                Explore the world’s leading design portfolios
+                Millions of designers and agencies around the world showcase their portfolio work <br> on Dribbble - the
+                home to the world’s best design and creative professionals.</p>
+            <input type="text" class="input" placeholder="Search...">
+        </section>
+        <div class="button-last">
+            <p>Trending searches</p>
+            <button>Landing page</button>
+            <button>ios</button>
+            <button>food</button>
+            <button>Landingpage</button>
+            <button>uxdesign</button>
+            <button>app design</button>
+
+        </div>
+    </main>
+    <select name="dropdown">
+        <option value="popular">Popular</option>
+        <option value="new &noteworthy">New & NoteWorthy</option>
+        <hr>
+        <option value="marketplace">Marketplace</option>
+    </select>
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgb(238, 242, 245);
+            display: flex;
+        }
+
+        header {
+            height: 100vh;
+            width: 300px;
+            border: 1px solid rgb(148, 137, 137);
+            border-top-right-radius: 9px;
+            border-bottom-right-radius: 9px;
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: column;
+            margin: 30px;
+            gap: 30px;
+            text-align: center;
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        .container {
+            display: flex;
+            width: 90%;
+            height: 100px;
+            margin-left: 30px;
+            margin-top: 50px;
+            border: 1px solid gainsboro;
+            border-left: 3px solid red;
+            background-color: ghostwhite;
+            border-radius: 9px;
+            /*  flex-wrap: wrap;
+overflow:scroll;*/
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Blog</li>
+                <li>Contact</li>
+                <li>Service</li>
+                <li>Application</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugit reiciendis eum placeat,
+                quibusdam aut, natus excepturi sint, sequi facere alias! Pariatur minima alias consequuntur modi facilis
+                ex? Beatae, perferendis.</p>
+        </div>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugit reiciendis eum placeat,
+                quibusdam aut, natus excepturi sint, sequi facere alias! Pariatur minima alias consequuntur modi facilis
+                ex? Beatae, perferendis.</p>
+        </div>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugit reiciendis eum placeat,
+                quibusdam aut, natus excepturi sint, sequi facere alias! Pariatur minima alias consequuntur modi facilis
+                ex? Beatae, perferendis.</p>
+        </div>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugit reiciendis eum placeat,
+                quibusdam aut, natus excepturi sint, sequi facere alias! Pariatur minima alias consequuntur modi facilis
+                ex? Beatae, perferendis.</p>
+        </div>
+    </main>
+</body>
+
+</html>

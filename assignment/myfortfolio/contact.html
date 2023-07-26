@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(17, 16, 16);
+            font-family: sans-serif;
+        }
+
+        .container {
+            background-color: rgb(228, 240, 250);
+            color: #000;
+            width: 80%;
+            height: 80vh;
+            border-radius: 15px;
+            margin-left: 130px;
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        fieldset {
+            border: none;
+        }
+
+        .leftside {
+            margin-top: 40px;
+            margin-left: 30px;
+            width: 600px;
+        }
+
+        .leftside h1 a {
+            color: #000;
+            text-decoration: underline blue;
+            font-size: 27px;
+        }
+
+        .leftside p {
+            margin-top: 25px;
+            font-size: 17px;
+            color: rgb(86, 90, 90);
+        }
+
+        .leftside div {
+            margin-top: 50px;
+            font-size: 19px;
+            color: #000;
+        }
+
+
+        .rightside {
+            margin-top: 40px;
+        }
+
+        .rightside h1 {
+            font-size: 27px;
+
+        }
+
+        .rightside .form-item input {
+            width: 170px;
+            height: 35px;
+            border-radius: 22px;
+            background-color: #ece4e4;
+            border: none;
+            margin: 12px;
+            text-align: center;
+        }
+
+        label {
+            color: rgb(32, 31, 31);
+            margin-left: 25px;
+        }
+
+        textarea {
+            margin-left: 15px;
+            border: none;
+            background-color: #ccc5c5;
+            border-radius: 22px;
+            font-size: 17px;
+        }
+
+        .submit {
+            width: 70px;
+            height: 32px;
+            background: rgb(28, 51, 153);
+            color: #fff;
+            border: none;
+            border-radius: 22px;
+            margin-top: 12px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="leftside">
+            <h1><a href="#">Get</a> in touch</h1>
+
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, explicabo quisquam. Accusamus reiciendis
+                commodi voluptatem amet obcaecati, suscipit qui sunt!</p>
+            <div>
+                <p><span>👉</span> Koteshower, Kathmandu</p>
+                <p><span>✔️</span> Lorem@ipusm.com</p>
+                <p> <span>❌</span>9867542003</p>
+            </div>
+        </div>
+        <hr>
+        <div class="rightside">
+            <h1>Contact me</h1>
+            <form action="./action" method="get" autocomplete="on">
+                <fieldset>
+                    <div class="form-item">
+                        <input type="text" placeholder="First Name" name="Firstname" autofocus>
+                        <input type="text" placeholder="Second Name" name="Secondname">
+                    </div>
+                    <div class="form-item">
+                        <input type="number" name="Mobilenumber" placeholder="Phone">
+                        <input type="email" name="Email" placeholder="Email">
+                    </div>
+                    <label for="message">Message</label>
+                    <textarea style="resize: none;" name="message" cols="40" rows="10" va> </textarea>
+                </fieldset>
+                <input type="submit" name="submit" value="SEND" class="submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

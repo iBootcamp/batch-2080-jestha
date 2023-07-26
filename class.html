@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp class</title>
+
+
+
+    <link rel="icon" href="./photo/poste-de-travail-pc-portable-cafe.jpg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            text-align: center;
+        }
+
+
+        .container {
+            position: relative;
+            opacity: 0.9;
+        }
+
+        .back-img {
+            width: 700px;
+            opacity: 0.5;
+        }
+
+        .first_img {
+            width: 100%;
+        }
+
+        .container p {
+            width: 500px;
+            color: rgb(3, 4, 39);
+            position: absolute;
+            top: 45%;
+            right: 40%;
+            left: 2%;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .warpper {
+            z-index: -1;
+            /* function of z-index is the show the inside item in outside or outside item hidden the inside the item. */
+            position: absolute;
+            width: 200px;
+            top: 10%;
+            right: 84%;
+        }
+
+        .warpper img {
+            width: 100%;
+            border-radius: 10%;
+        }
+
+        section {
+            display: flex;
+            width: 800px;
+            height: 450px;
+            margin: 30px;
+            border-radius: 6px;
+            justify-content: space-around;
+            border: 1px solid rgb(150, 78, 78);
+            background-image: linear-gradient(red, blue, green);
+        }
+
+        section .box1,
+        .box2,
+        .box3 {
+            width: 230px;
+            border-radius: 4px;
+            margin: 22px;
+            border: 1px solid grey;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .box2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .box2 div {
+            width: 200px;
+            background-color: black;
+            color: white;
+            height: 80px;
+            border: 1px solid snow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /*  flex-grow: 1;*/
+            font-size: 12px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <p><a href="#1" title=" Click the link you Go to the Bottom page">Last</a></p>
+    <p id="2"></p>
+
+    <!-- <picture>
+        <source media="(min-width:640px)" srcset="./photo/poste-de-travail-pc-portable-cafe.jpg" />
+        <source media="(min-width:560px)" srcset="./photo/Snapchat-1746657701.jpg" />
+        <img src="./photo/poste-de-travail-pc-portable-cafe.jpg" alt="computer" />
+    </picture> -->
+
+
+    <!-- <div class="container">
+        <div class="container-img">
+            <img src="./photo/poste-de-travail-pc-portable-cafe.jpg" alt="image">
+
+
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloremque unde aperiam incidunt labore,
+            sequi illum pariatur, itaque adipisci similique praesentium qui cupiditate alias repellendus? Inventore,
+            quos. Nulla, cumque possimus!</p>
+    </div> -->
+    <div class="container">
+        <div class="back-img">
+            <img src="./photo/group.jpg" class="first_img" alt="image">
+        </div>
+        <div class="warpper">
+            <img src="./photo/pets.jpg" alt="dog">
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloremque unde aperiam incidunt labore,
+            sequi illum pariatur, itaque adipisci similique praesentium qui cupiditate alias repellendus? Inventore,
+            quos. Nulla, cumque possimus!</p>
+    </div>
+
+  
+    <!-- for graphics svg -->
+    <!-- 
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+            style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+        sorry, your browser does not support inline SVG.
+    </svg> -->
+            
+
+
+    <p id="1"></p>
+    <a href="#2" title="Go to the Top">Top</a>
+
+
+    <!-- ```
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 30px;
+}
+
+.box-model {
+  background-color: black;
+  color: white;
+  border: 5px solid blue;
+  padding: 16px;
+  margin: 16px;
+  width: 30rem;
+  height: 30rem;
+  box-sizing: border-box;
+}
+
+/* about px, rem, em , percentage(%): 
+    1rem=16px;
+    px: fixed measurement(absoulte length)
+    %: relative (accordingt to device width , it changes);
+
+    em: relative to parent
+    eg::after
+    div=> 16px
+    p inside div=> 2em => 2*16= 32px
+    p inside div=> 0.2em=> 0.2 *16=> 3.2px
+
+    body=> 30px
+    div=2em =>(2*30=60)
+    p inside div = 2em (2*60=>120px)
+
+    rem => rem are awlz to relative html 
+    p=> 2rem=> 2*30px
+
+
+*/
+/* html{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+} */
+
+/* width= left+ right(padding + border);
+width= 100px + 5px+ 5px+ 16px+ 16px
+height= top+ bottom
+height= 100px +
+100+10+32=142px  =>border-box garu bane lidaina. */
+
+
+    /* selector:
+    1.Simple selector: (id, name, class)
+    2.Combination Selector : based on relationship
+    i. Descendant selector:
+    ii.child selector:
+    ii. adjacent sibling selector:
+    iii. general sibling selector:
+    (
+    /* // combination selector: */
+
+    /* //descendant selector */
+    .first-container p {
+    color: red;
+    }
+    /* // child selector */
+    .first-container > p {
+    color: red;
+    }
+
+    /* //adjacent sibling selector */
+    .first-container + h1 {
+    color: blue;
+    }
+
+    /* //general sibling selector */
+    .first-container ~ h1 {
+    color: blue;
+    }
+
+    /* //pseudo-class selector:
+    it define state of an element
+    eg: mouse hover,focus element
+    link visited & unvisited,
+
+    a:link{},
+    a:visited{},
+    a:active{}
+
+    */
+    */-->
+
+</body>
+
+</html>
